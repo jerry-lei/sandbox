@@ -31,11 +31,17 @@ class memorization{
 	Scanner in = new Scanner(System.in);
 	while(line_counter <= lines.size()){
 	    if(line_counter == 0){
-		guess = in.next();
-		if(guess.replaceAll('[^a-zA-Z0-9]', "") == 
+		System.out.println("First Line: ");
+		guess = in.nextLine();
+		if(guess.replaceAll('[^a-zA-Z0-9]', "") == lines.get(line_current).replaceAll('[^a-zA-Z0-9]',""))
+		    line_counter++;
 	    }
 	    else{
-	     
+		System.out.println("Previous line: " + lines.get(line_counter - 1));
+		System.out.println("Input next line: ");
+		guess = in.nextLine();
+		if(guess.replaceAll('[^a-zA-Z0-9]', "") == lines.get(line_current).replaceAll('[^a-zA-Z0-9\]',""))
+                    line_counter++;
 	    }
     }	
     public static void main(String[] args){
