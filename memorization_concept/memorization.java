@@ -27,7 +27,7 @@ class memorization{
     private static void game(){
 	ArrayList<String> lines = read_lines("hamlet.txt");
 	//	System.out.println(lines);
-	int current_line = 0;
+	int line_counter = 0;
 	Scanner in = new Scanner(System.in);
 	String guess = "";
 	while(line_counter <= lines.size()){

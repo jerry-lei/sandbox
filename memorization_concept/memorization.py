@@ -16,23 +16,29 @@ def app(f_name):
         c1+=1
     return lines
 
-print app("hamlet.txt")
 
 def game():
     lines = app('hamlet.txt')
-    current_line=0
+    print lines
+    current_line = 0
     while current_line < len(lines):
         if current_line == 0:
-            guess = raw_input("First line: ")
+            guess = raw_input("\nFirst line: ")
             print guess
             if re.sub('[^0-9a-zA-Z]+','',guess).lower() == re.sub('[^0-9a-zA-Z]+','',lines[current_line]).lower():
                 current_line += 1
         if current_line > 0:
-            print "Previous line: " + lines[current_line-1]
+            print "\nPrevious line: " + lines[current_line - 1]
             guess = raw_input("Line: ")
-            if re.sub('[^0-9a-zA-Z]+','',guess).lower() == re.sub('[^0-9a\-zA-Z]+','',lines[current_line]).lower():                                                 
+            """
+            print "==========="
+            print re.sub('[^0-9a-zA-Z]+','',guess).lower()
+            temp = lines[current_line]
+            print re.sub('[^0-9a-zA-Z]+','',temp).lower()
+            print "==========="
+            """
+            if re.sub('[^0-9a-zA-Z]+','',guess).lower() == re.sub('[^0-9a-zA-Z]+','',lines[current_line]).lower():
                 current_line += 1
-
+    print "FINISHED!"
 
 game()
-
