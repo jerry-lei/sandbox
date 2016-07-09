@@ -36,7 +36,7 @@ public class memorization{
       if(line_counter == 0){
         System.out.println("First Line: ");
         guess = in.nextLine();
-        guess_replace = guess.replaceAll("[^a-zA-Z0-9]", "");
+        guess_replace = guess.replaceAll("[a-zA-Z0-9]", "");
         line_replace = lines.get(line_counter).replaceAll("[a-zA-Z0-9]","");
         if(line_replace == guess_replace){
           //System.out.print(lines.get(line_counter));
@@ -47,7 +47,7 @@ public class memorization{
       else if(line_counter > 0){
         System.out.println("Previous line: " + lines.get(line_counter - 1));
         System.out.println("Input next line: ");
-        guess_replace = guess.replaceAll("[^a-zA-Z0-9]", "");
+        guess_replace = guess.replaceAll("[a-zA-Z0-9]", "");
         line_replace = lines.get(line_counter).replaceAll("[a-zA-Z0-9]","");
         if(line_replace == guess_replace)
         line_counter++;
