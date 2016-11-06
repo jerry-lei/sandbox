@@ -1,12 +1,12 @@
 """
 How to use:
-- put @debugger before a function created
+- put @logger before a function created
 Example:
 
 !====Another .py====!
-from debug import debugger
+from logger import logger
 
-@debugger
+@logger
 def foo(a,b,c):
     return a,b,c
 
@@ -16,7 +16,7 @@ foo("aadvark", "bear", "claw")
 
 import time
 
-def debugger(fxn):
+def logger(fxn):
     def testing(*arg):
         t = time.time()
         print "\n!=====Testing function: " + fxn.func_name + "=====!"
