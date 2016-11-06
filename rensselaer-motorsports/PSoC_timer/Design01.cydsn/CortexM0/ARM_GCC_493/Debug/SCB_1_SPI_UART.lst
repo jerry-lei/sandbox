@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
   30:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     volatile uint32 SCB_1_rxBufferTail;
   31:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     /**
   32:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     * \addtogroup group_globals
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 2
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 2
 
 
   33:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     * \{
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
   28 0000 80B5     		push	{r7, lr}
   29              		.cfi_def_cfa_offset 8
   30              		.cfi_offset 7, -8
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 3
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 3
 
 
   31              		.cfi_offset 14, -4
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
   40 000a 044B     		ldr	r3, .L3
   41 000c 1B68     		ldr	r3, [r3]
   42 000e 7B60     		str	r3, [r7, #4]
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 4
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 4
 
 
  130:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****         }
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
   68 0000 80B5     		push	{r7, lr}
   69              		.cfi_def_cfa_offset 8
   70              		.cfi_offset 7, -8
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 5
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 5
 
 
   71              		.cfi_offset 14, -4
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
   99              		.global	SCB_1_SpiUartClearRxBuffer
  100              		.code	16
  101              		.thumb_func
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 6
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 6
 
 
  102              		.type	SCB_1_SpiUartClearRxBuffer, %function
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  228:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****             SCB_1_CLEAR_RX_FIFO;
  113              		.loc 1 228 0
  114 0004 074B     		ldr	r3, .L10
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 7
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 7
 
 
  115 0006 074A     		ldr	r2, .L10
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  251:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     *  SCB_1_txBufferHead - the start index to put data into the 
  252:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     *  software transmit buffer.
  253:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     *  SCB_1_txBufferTail - start index to get data from the software
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 8
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 8
 
 
  254:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     *  transmit buffer.
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  297:Generated_Source\PSoC4/SCB_1_SPI_UART.c **** 
  298:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****                 /* Check if TX Not Full is disabled in interrupt */
  299:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****                 if (0u == (SCB_1_INTR_TX_MASK_REG & SCB_1_INTR_TX_NOT_FULL))
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 9
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 9
 
 
  300:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****                 {
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  319:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     /*******************************************************************************
  320:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     * Function Name: SCB_1_SpiUartPutArray
  321:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     ****************************************************************************//**
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 10
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 10
 
 
  322:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     *
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  221              	.L17:
  344:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****         {
  222              		.loc 1 344 0 is_stmt 0 discriminator 1
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 11
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 11
 
 
  223 0024 FA68     		ldr	r2, [r7, #12]
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  249 0002 82B0     		sub	sp, sp, #8
  250              		.cfi_def_cfa_offset 16
  251 0004 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 12
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 12
 
 
  252              		.cfi_def_cfa_register 7
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  279              		.type	SCB_1_SpiUartClearTxBuffer, %function
  280              	SCB_1_SpiUartClearTxBuffer:
  281              	.LFB8:
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 13
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 13
 
 
  402:Generated_Source\PSoC4/SCB_1_SPI_UART.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  301 0018 0349     		ldr	r1, .L24+4
  302 001a 0A40     		and	r2, r1
  303 001c 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 14
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 14
 
 
  437:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****         }
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  336 0008 1B68     		ldr	r3, [r3]
  337 000a 7B60     		str	r3, [r7, #4]
  459:Generated_Source\PSoC4/SCB_1_SPI_UART.c **** 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 15
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 15
 
 
  460:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     SCB_1_SetRxInterruptMode(SCB_1_NO_INTR_SOURCES);
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  374              		.cfi_def_cfa_register 7
  478:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     uint32 intSourceMask;
  479:Generated_Source\PSoC4/SCB_1_SPI_UART.c **** 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 16
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 16
 
 
  480:Generated_Source\PSoC4/SCB_1_SPI_UART.c ****     intSourceMask = SCB_1_GetTxInterruptMode();
@@ -940,48 +940,48 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  405 0006 00000000 		.4byte	.Ldebug_abbrev0
  406 000a 04       		.byte	0x4
  407 000b 01       		.uleb128 0x1
- 408 000c 1E010000 		.4byte	.LASF32
+ 408 000c 36010000 		.4byte	.LASF32
  409 0010 01       		.byte	0x1
- 410 0011 16020000 		.4byte	.LASF33
- 411 0015 00000000 		.4byte	.LASF34
+ 410 0011 2E020000 		.4byte	.LASF33
+ 411 0015 55000000 		.4byte	.LASF34
  412 0019 00000000 		.4byte	.Ldebug_ranges0+0
  413 001d 00000000 		.4byte	0
  414 0021 00000000 		.4byte	.Ldebug_line0
  415 0025 02       		.uleb128 0x2
  416 0026 01       		.byte	0x1
  417 0027 06       		.byte	0x6
- 418 0028 A2020000 		.4byte	.LASF0
+ 418 0028 BA020000 		.4byte	.LASF0
  419 002c 02       		.uleb128 0x2
  420 002d 01       		.byte	0x1
  421 002e 08       		.byte	0x8
- 422 002f D8000000 		.4byte	.LASF1
+ 422 002f F0000000 		.4byte	.LASF1
  423 0033 02       		.uleb128 0x2
  424 0034 02       		.byte	0x2
  425 0035 05       		.byte	0x5
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 17
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 17
 
 
- 426 0036 58020000 		.4byte	.LASF2
+ 426 0036 70020000 		.4byte	.LASF2
  427 003a 02       		.uleb128 0x2
  428 003b 02       		.byte	0x2
  429 003c 07       		.byte	0x7
- 430 003d 6F000000 		.4byte	.LASF3
+ 430 003d 2E000000 		.4byte	.LASF3
  431 0041 02       		.uleb128 0x2
  432 0042 04       		.byte	0x4
  433 0043 05       		.byte	0x5
- 434 0044 99020000 		.4byte	.LASF4
+ 434 0044 B1020000 		.4byte	.LASF4
  435 0048 02       		.uleb128 0x2
  436 0049 04       		.byte	0x4
  437 004a 07       		.byte	0x7
- 438 004b A1000000 		.4byte	.LASF5
+ 438 004b B9000000 		.4byte	.LASF5
  439 004f 02       		.uleb128 0x2
  440 0050 08       		.byte	0x8
  441 0051 05       		.byte	0x5
- 442 0052 03020000 		.4byte	.LASF6
+ 442 0052 1B020000 		.4byte	.LASF6
  443 0056 02       		.uleb128 0x2
  444 0057 08       		.byte	0x8
  445 0058 07       		.byte	0x7
- 446 0059 E3010000 		.4byte	.LASF7
+ 446 0059 FB010000 		.4byte	.LASF7
  447 005d 03       		.uleb128 0x3
  448 005e 04       		.byte	0x4
  449 005f 05       		.byte	0x5
@@ -989,45 +989,45 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  451 0064 02       		.uleb128 0x2
  452 0065 04       		.byte	0x4
  453 0066 07       		.byte	0x7
- 454 0067 82000000 		.4byte	.LASF8
+ 454 0067 41000000 		.4byte	.LASF8
  455 006b 04       		.uleb128 0x4
- 456 006c B3000000 		.4byte	.LASF9
+ 456 006c CB000000 		.4byte	.LASF9
  457 0070 02       		.byte	0x2
  458 0071 B901     		.2byte	0x1b9
  459 0073 2C000000 		.4byte	0x2c
  460 0077 04       		.uleb128 0x4
- 461 0078 C4010000 		.4byte	.LASF10
+ 461 0078 DC010000 		.4byte	.LASF10
  462 007c 02       		.byte	0x2
  463 007d BB01     		.2byte	0x1bb
  464 007f 48000000 		.4byte	0x48
  465 0083 02       		.uleb128 0x2
  466 0084 04       		.byte	0x4
  467 0085 04       		.byte	0x4
- 468 0086 96000000 		.4byte	.LASF11
+ 468 0086 AE000000 		.4byte	.LASF11
  469 008a 02       		.uleb128 0x2
  470 008b 08       		.byte	0x8
  471 008c 04       		.byte	0x4
- 472 008d E6000000 		.4byte	.LASF12
+ 472 008d FE000000 		.4byte	.LASF12
  473 0091 02       		.uleb128 0x2
  474 0092 01       		.byte	0x1
  475 0093 08       		.byte	0x8
- 476 0094 11020000 		.4byte	.LASF13
+ 476 0094 29020000 		.4byte	.LASF13
  477 0098 04       		.uleb128 0x4
- 478 0099 41000000 		.4byte	.LASF14
+ 478 0099 00000000 		.4byte	.LASF14
  479 009d 02       		.byte	0x2
  480 009e 6502     		.2byte	0x265
  481 00a0 A4000000 		.4byte	0xa4
  482 00a4 05       		.uleb128 0x5
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 18
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 18
 
 
  483 00a5 77000000 		.4byte	0x77
  484 00a9 02       		.uleb128 0x2
  485 00aa 04       		.byte	0x4
  486 00ab 07       		.byte	0x7
- 487 00ac FA010000 		.4byte	.LASF15
+ 487 00ac 12020000 		.4byte	.LASF15
  488 00b0 06       		.uleb128 0x6
- 489 00b1 AC010000 		.4byte	.LASF16
+ 489 00b1 C4010000 		.4byte	.LASF16
  490 00b5 01       		.byte	0x1
  491 00b6 53       		.byte	0x53
  492 00b7 77000000 		.4byte	0x77
@@ -1037,7 +1037,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  496 00c4 9C       		.byte	0x9c
  497 00c5 D8000000 		.4byte	0xd8
  498 00c9 07       		.uleb128 0x7
- 499 00ca 8F000000 		.4byte	.LASF18
+ 499 00ca 4E000000 		.4byte	.LASF18
  500 00ce 01       		.byte	0x1
  501 00cf 55       		.byte	0x55
  502 00d0 77000000 		.4byte	0x77
@@ -1046,7 +1046,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  505 00d6 74       		.sleb128 -12
  506 00d7 00       		.byte	0
  507 00d8 06       		.uleb128 0x6
- 508 00d9 AE020000 		.4byte	.LASF17
+ 508 00d9 C6020000 		.4byte	.LASF17
  509 00dd 01       		.byte	0x1
  510 00de 9D       		.byte	0x9d
  511 00df 77000000 		.4byte	0x77
@@ -1056,7 +1056,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  515 00ec 9C       		.byte	0x9c
  516 00ed 00010000 		.4byte	0x100
  517 00f1 07       		.uleb128 0x7
- 518 00f2 9C000000 		.4byte	.LASF19
+ 518 00f2 B4000000 		.4byte	.LASF19
  519 00f6 01       		.byte	0x1
  520 00f7 9F       		.byte	0x9f
  521 00f8 77000000 		.4byte	0x77
@@ -1065,7 +1065,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  524 00fe 74       		.sleb128 -12
  525 00ff 00       		.byte	0
  526 0100 08       		.uleb128 0x8
- 527 0101 03010000 		.4byte	.LASF26
+ 527 0101 1B010000 		.4byte	.LASF26
  528 0105 01       		.byte	0x1
  529 0106 C8       		.byte	0xc8
  530 0107 00000000 		.4byte	.LFB4
@@ -1073,19 +1073,19 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  532 010f 01       		.uleb128 0x1
  533 0110 9C       		.byte	0x9c
  534 0111 09       		.uleb128 0x9
- 535 0112 B9000000 		.4byte	.LASF20
+ 535 0112 D1000000 		.4byte	.LASF20
  536 0116 01       		.byte	0x1
  537 0117 0101     		.2byte	0x101
  538 0119 00000000 		.4byte	.LFB5
  539 011d 2C000000 		.4byte	.LFE5-.LFB5
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 19
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 19
 
 
  540 0121 01       		.uleb128 0x1
  541 0122 9C       		.byte	0x9c
  542 0123 37010000 		.4byte	0x137
  543 0127 0A       		.uleb128 0xa
- 544 0128 4D000000 		.4byte	.LASF22
+ 544 0128 0C000000 		.4byte	.LASF22
  545 012c 01       		.byte	0x1
  546 012d 0101     		.2byte	0x101
  547 012f 77000000 		.4byte	0x77
@@ -1094,7 +1094,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  550 0135 74       		.sleb128 -12
  551 0136 00       		.byte	0
  552 0137 0B       		.uleb128 0xb
- 553 0138 ED000000 		.4byte	.LASF21
+ 553 0138 05010000 		.4byte	.LASF21
  554 013c 01       		.byte	0x1
  555 013d 5401     		.2byte	0x154
  556 013f 00000000 		.4byte	.LFB6
@@ -1103,7 +1103,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  559 0148 9C       		.byte	0x9c
  560 0149 79010000 		.4byte	0x179
  561 014d 0A       		.uleb128 0xa
- 562 014e D2000000 		.4byte	.LASF23
+ 562 014e EA000000 		.4byte	.LASF23
  563 0152 01       		.byte	0x1
  564 0153 5401     		.2byte	0x154
  565 0155 79010000 		.4byte	0x179
@@ -1111,7 +1111,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  567 015a 91       		.byte	0x91
  568 015b 6C       		.sleb128 -20
  569 015c 0A       		.uleb128 0xa
- 570 015d 47000000 		.4byte	.LASF24
+ 570 015d 06000000 		.4byte	.LASF24
  571 0161 01       		.byte	0x1
  572 0162 5401     		.2byte	0x154
  573 0164 77000000 		.4byte	0x77
@@ -1133,12 +1133,12 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  589 017f 0E       		.uleb128 0xe
  590 0180 6B000000 		.4byte	0x6b
  591 0184 0F       		.uleb128 0xf
- 592 0185 62020000 		.4byte	.LASF25
+ 592 0185 7A020000 		.4byte	.LASF25
  593 0189 01       		.byte	0x1
  594 018a 7501     		.2byte	0x175
  595 018c 77000000 		.4byte	0x77
  596 0190 00000000 		.4byte	.LFB7
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 20
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 20
 
 
  597 0194 20000000 		.4byte	.LFE7-.LFB7
@@ -1146,7 +1146,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  599 0199 9C       		.byte	0x9c
  600 019a AE010000 		.4byte	0x1ae
  601 019e 10       		.uleb128 0x10
- 602 019f 9C000000 		.4byte	.LASF19
+ 602 019f B4000000 		.4byte	.LASF19
  603 01a3 01       		.byte	0x1
  604 01a4 7701     		.2byte	0x177
  605 01a6 77000000 		.4byte	0x77
@@ -1155,7 +1155,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  608 01ac 74       		.sleb128 -12
  609 01ad 00       		.byte	0
  610 01ae 11       		.uleb128 0x11
- 611 01af 54000000 		.4byte	.LASF27
+ 611 01af 13000000 		.4byte	.LASF27
  612 01b3 01       		.byte	0x1
  613 01b4 A101     		.2byte	0x1a1
  614 01b6 00000000 		.4byte	.LFB8
@@ -1163,7 +1163,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  616 01be 01       		.uleb128 0x1
  617 01bf 9C       		.byte	0x9c
  618 01c0 0F       		.uleb128 0xf
- 619 01c1 3E020000 		.4byte	.LASF28
+ 619 01c1 56020000 		.4byte	.LASF28
  620 01c5 01       		.byte	0x1
  621 01c6 C601     		.2byte	0x1c6
  622 01c8 77000000 		.4byte	0x77
@@ -1173,7 +1173,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  626 01d5 9C       		.byte	0x9c
  627 01d6 EA010000 		.4byte	0x1ea
  628 01da 10       		.uleb128 0x10
- 629 01db D9010000 		.4byte	.LASF29
+ 629 01db F1010000 		.4byte	.LASF29
  630 01df 01       		.byte	0x1
  631 01e0 C801     		.2byte	0x1c8
  632 01e2 77000000 		.4byte	0x77
@@ -1182,7 +1182,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  635 01e8 74       		.sleb128 -12
  636 01e9 00       		.byte	0
  637 01ea 12       		.uleb128 0x12
- 638 01eb 7F020000 		.4byte	.LASF30
+ 638 01eb 97020000 		.4byte	.LASF30
  639 01ef 01       		.byte	0x1
  640 01f0 DC01     		.2byte	0x1dc
  641 01f2 77000000 		.4byte	0x77
@@ -1191,14 +1191,14 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  644 01fe 01       		.uleb128 0x1
  645 01ff 9C       		.byte	0x9c
  646 0200 10       		.uleb128 0x10
- 647 0201 CB010000 		.4byte	.LASF31
+ 647 0201 E3010000 		.4byte	.LASF31
  648 0205 01       		.byte	0x1
  649 0206 DE01     		.2byte	0x1de
  650 0208 77000000 		.4byte	0x77
  651 020c 02       		.uleb128 0x2
  652 020d 91       		.byte	0x91
  653 020e 74       		.sleb128 -12
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 21
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 21
 
 
  654 020f 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  708 0032 49       		.uleb128 0x49
  709 0033 13       		.uleb128 0x13
  710 0034 00       		.byte	0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 22
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 22
 
 
  711 0035 00       		.byte	0
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  765 006c 19       		.uleb128 0x19
  766 006d 03       		.uleb128 0x3
  767 006e 0E       		.uleb128 0xe
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 23
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 23
 
 
  768 006f 3A       		.uleb128 0x3a
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  822 00a7 00       		.byte	0
  823 00a8 00       		.byte	0
  824 00a9 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 24
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 24
 
 
  825 00aa 2E       		.uleb128 0x2e
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  879 00e1 00       		.byte	0
  880 00e2 0F       		.uleb128 0xf
  881 00e3 2E       		.uleb128 0x2e
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 25
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 25
 
 
  882 00e4 01       		.byte	0x1
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  936 011b 01       		.uleb128 0x1
  937 011c 12       		.uleb128 0x12
  938 011d 06       		.uleb128 0x6
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 26
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 26
 
 
  939 011e 40       		.uleb128 0x40
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  993 0048 00000000 		.4byte	.LFB9
  994 004c 20000000 		.4byte	.LFE9-.LFB9
  995 0050 00000000 		.4byte	.LFB10
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 27
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 27
 
 
  996 0054 20000000 		.4byte	.LFE10-.LFB10
@@ -1593,189 +1593,189 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 1
  1023      00000201 
  1023      FB0E0D00 
  1023      01010101 
- 1024              	.LASF34:
- 1025 0000 433A5C55 		.ascii	"C:\\Users\\Jerry\\Documents\\PSoC Creator\\Workspac"
- 1025      73657273 
- 1025      5C4A6572 
- 1025      72795C44 
- 1025      6F63756D 
- 1026 002e 6530315C 		.ascii	"e01\\Design01.cydsn\000"
- 1026      44657369 
- 1026      676E3031 
- 1026      2E637964 
- 1026      736E00
- 1027              	.LASF14:
- 1028 0041 72656733 		.ascii	"reg32\000"
- 1028      3200
- 1029              	.LASF24:
- 1030 0047 636F756E 		.ascii	"count\000"
- 1030      7400
- 1031              	.LASF22:
- 1032 004d 74784461 		.ascii	"txData\000"
- 1032      746100
- 1033              	.LASF27:
- 1034 0054 5343425F 		.ascii	"SCB_1_SpiUartClearTxBuffer\000"
- 1034      315F5370 
- 1034      69556172 
- 1034      74436C65 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 28
+ 1024              	.LASF14:
+ 1025 0000 72656733 		.ascii	"reg32\000"
+ 1025      3200
+ 1026              	.LASF24:
+ 1027 0006 636F756E 		.ascii	"count\000"
+ 1027      7400
+ 1028              	.LASF22:
+ 1029 000c 74784461 		.ascii	"txData\000"
+ 1029      746100
+ 1030              	.LASF27:
+ 1031 0013 5343425F 		.ascii	"SCB_1_SpiUartClearTxBuffer\000"
+ 1031      315F5370 
+ 1031      69556172 
+ 1031      74436C65 
+ 1031      61725478 
+ 1032              	.LASF3:
+ 1033 002e 73686F72 		.ascii	"short unsigned int\000"
+ 1033      7420756E 
+ 1033      7369676E 
+ 1033      65642069 
+ 1033      6E7400
+ 1034              	.LASF8:
+ 1035 0041 756E7369 		.ascii	"unsigned int\000"
+ 1035      676E6564 
+ 1035      20696E74 
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 28
 
 
- 1034      61725478 
- 1035              	.LASF3:
- 1036 006f 73686F72 		.ascii	"short unsigned int\000"
- 1036      7420756E 
- 1036      7369676E 
- 1036      65642069 
- 1036      6E7400
- 1037              	.LASF8:
- 1038 0082 756E7369 		.ascii	"unsigned int\000"
- 1038      676E6564 
- 1038      20696E74 
- 1038      00
- 1039              	.LASF18:
- 1040 008f 72784461 		.ascii	"rxData\000"
- 1040      746100
+ 1035      00
+ 1036              	.LASF18:
+ 1037 004e 72784461 		.ascii	"rxData\000"
+ 1037      746100
+ 1038              	.LASF34:
+ 1039 0055 433A5C55 		.ascii	"C:\\Users\\Jerry\\Documents\\GitHub\\sandbox\\renss"
+ 1039      73657273 
+ 1039      5C4A6572 
+ 1039      72795C44 
+ 1039      6F63756D 
+ 1040 0082 656C6165 		.ascii	"elaer-motorsports\\PSoC_timer\\Design01.cydsn\000"
+ 1040      722D6D6F 
+ 1040      746F7273 
+ 1040      706F7274 
+ 1040      735C5053 
  1041              	.LASF11:
- 1042 0096 666C6F61 		.ascii	"float\000"
+ 1042 00ae 666C6F61 		.ascii	"float\000"
  1042      7400
  1043              	.LASF19:
- 1044 009c 73697A65 		.ascii	"size\000"
+ 1044 00b4 73697A65 		.ascii	"size\000"
  1044      00
  1045              	.LASF5:
- 1046 00a1 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1046 00b9 6C6F6E67 		.ascii	"long unsigned int\000"
  1046      20756E73 
  1046      69676E65 
  1046      6420696E 
  1046      7400
  1047              	.LASF9:
- 1048 00b3 75696E74 		.ascii	"uint8\000"
+ 1048 00cb 75696E74 		.ascii	"uint8\000"
  1048      3800
  1049              	.LASF20:
- 1050 00b9 5343425F 		.ascii	"SCB_1_SpiUartWriteTxData\000"
+ 1050 00d1 5343425F 		.ascii	"SCB_1_SpiUartWriteTxData\000"
  1050      315F5370 
  1050      69556172 
  1050      74577269 
  1050      74655478 
  1051              	.LASF23:
- 1052 00d2 77724275 		.ascii	"wrBuf\000"
+ 1052 00ea 77724275 		.ascii	"wrBuf\000"
  1052      6600
  1053              	.LASF1:
- 1054 00d8 756E7369 		.ascii	"unsigned char\000"
+ 1054 00f0 756E7369 		.ascii	"unsigned char\000"
  1054      676E6564 
  1054      20636861 
  1054      7200
  1055              	.LASF12:
- 1056 00e6 646F7562 		.ascii	"double\000"
+ 1056 00fe 646F7562 		.ascii	"double\000"
  1056      6C6500
  1057              	.LASF21:
- 1058 00ed 5343425F 		.ascii	"SCB_1_SpiUartPutArray\000"
+ 1058 0105 5343425F 		.ascii	"SCB_1_SpiUartPutArray\000"
  1058      315F5370 
  1058      69556172 
  1058      74507574 
  1058      41727261 
  1059              	.LASF26:
- 1060 0103 5343425F 		.ascii	"SCB_1_SpiUartClearRxBuffer\000"
+ 1060 011b 5343425F 		.ascii	"SCB_1_SpiUartClearRxBuffer\000"
  1060      315F5370 
  1060      69556172 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 29
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 29
 
 
  1060      74436C65 
  1060      61725278 
  1061              	.LASF32:
- 1062 011e 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1062 0136 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
  1062      4320342E 
  1062      392E3320 
  1062      32303135 
  1062      30333033 
- 1063 0151 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1063 0169 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
  1063      20726576 
  1063      6973696F 
  1063      6E203232 
  1063      31323230 
- 1064 0184 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 1064 019c 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
  1064      66756E63 
  1064      74696F6E 
  1064      2D736563 
  1064      74696F6E 
  1065              	.LASF16:
- 1066 01ac 5343425F 		.ascii	"SCB_1_SpiUartReadRxData\000"
+ 1066 01c4 5343425F 		.ascii	"SCB_1_SpiUartReadRxData\000"
  1066      315F5370 
  1066      69556172 
  1066      74526561 
  1066      64527844 
  1067              	.LASF10:
- 1068 01c4 75696E74 		.ascii	"uint32\000"
+ 1068 01dc 75696E74 		.ascii	"uint32\000"
  1068      333200
  1069              	.LASF31:
- 1070 01cb 696E7453 		.ascii	"intSourceMask\000"
+ 1070 01e3 696E7453 		.ascii	"intSourceMask\000"
  1070      6F757263 
  1070      654D6173 
  1070      6B00
  1071              	.LASF29:
- 1072 01d9 696E7453 		.ascii	"intSource\000"
+ 1072 01f1 696E7453 		.ascii	"intSource\000"
  1072      6F757263 
  1072      6500
  1073              	.LASF7:
- 1074 01e3 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1074 01fb 6C6F6E67 		.ascii	"long long unsigned int\000"
  1074      206C6F6E 
  1074      6720756E 
  1074      7369676E 
  1074      65642069 
  1075              	.LASF15:
- 1076 01fa 73697A65 		.ascii	"sizetype\000"
+ 1076 0212 73697A65 		.ascii	"sizetype\000"
  1076      74797065 
  1076      00
  1077              	.LASF6:
- 1078 0203 6C6F6E67 		.ascii	"long long int\000"
+ 1078 021b 6C6F6E67 		.ascii	"long long int\000"
  1078      206C6F6E 
  1078      6720696E 
  1078      7400
  1079              	.LASF13:
- 1080 0211 63686172 		.ascii	"char\000"
+ 1080 0229 63686172 		.ascii	"char\000"
  1080      00
  1081              	.LASF33:
- 1082 0216 47656E65 		.ascii	"Generated_Source\\PSoC4\\SCB_1_SPI_UART.c\000"
+ 1082 022e 47656E65 		.ascii	"Generated_Source\\PSoC4\\SCB_1_SPI_UART.c\000"
  1082      72617465 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccEqV8D.s 			page 30
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cc7WTJ9b.s 			page 30
 
 
  1082      645F536F 
  1082      75726365 
  1082      5C50536F 
  1083              	.LASF28:
- 1084 023e 5343425F 		.ascii	"SCB_1_SpiUartDisableIntRx\000"
+ 1084 0256 5343425F 		.ascii	"SCB_1_SpiUartDisableIntRx\000"
  1084      315F5370 
  1084      69556172 
  1084      74446973 
  1084      61626C65 
  1085              	.LASF2:
- 1086 0258 73686F72 		.ascii	"short int\000"
+ 1086 0270 73686F72 		.ascii	"short int\000"
  1086      7420696E 
  1086      7400
  1087              	.LASF25:
- 1088 0262 5343425F 		.ascii	"SCB_1_SpiUartGetTxBufferSize\000"
+ 1088 027a 5343425F 		.ascii	"SCB_1_SpiUartGetTxBufferSize\000"
  1088      315F5370 
  1088      69556172 
  1088      74476574 
  1088      54784275 
  1089              	.LASF30:
- 1090 027f 5343425F 		.ascii	"SCB_1_SpiUartDisableIntTx\000"
+ 1090 0297 5343425F 		.ascii	"SCB_1_SpiUartDisableIntTx\000"
  1090      315F5370 
  1090      69556172 
  1090      74446973 
  1090      61626C65 
  1091              	.LASF4:
- 1092 0299 6C6F6E67 		.ascii	"long int\000"
+ 1092 02b1 6C6F6E67 		.ascii	"long int\000"
  1092      20696E74 
  1092      00
  1093              	.LASF0:
- 1094 02a2 7369676E 		.ascii	"signed char\000"
+ 1094 02ba 7369676E 		.ascii	"signed char\000"
  1094      65642063 
  1094      68617200 
  1095              	.LASF17:
- 1096 02ae 5343425F 		.ascii	"SCB_1_SpiUartGetRxBufferSize\000"
+ 1096 02c6 5343425F 		.ascii	"SCB_1_SpiUartGetRxBufferSize\000"
  1096      315F5370 
  1096      69556172 
  1096      74476574 

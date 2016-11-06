@@ -85,8 +85,8 @@ int main()
         int c1 = 0;
         int old_counter = 0;
         char random_time[10];
-        while(c1<1000){
-            int rand_delay = rand() % 5000;
+        while(c1<100){
+            int rand_delay = rand() % 1750;
             old_counter = read_counter;
             read_counter = TCPWM_1_ReadCounter();
             double value;

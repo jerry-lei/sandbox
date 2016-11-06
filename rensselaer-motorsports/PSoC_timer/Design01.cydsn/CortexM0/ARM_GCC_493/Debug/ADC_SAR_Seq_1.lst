@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
   16:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *******************************************************************************/
   17:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** 
   18:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** #include "ADC_SAR_Seq_1.h"
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 2
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 2
 
 
   19:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** 
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
   65:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     /* If not Initialized then initialize all required hardware and software */
   66:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     if(ADC_SAR_Seq_1_initVar == 0u)
   48              		.loc 1 66 0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 3
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 3
 
 
   49 0004 064B     		ldr	r3, .L3
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
   88:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *  None.
   89:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *
   90:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** * Global variables:
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 4
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 4
 
 
   91:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *  The ADC_SAR_Seq_1_offset variable is initialized.
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  135:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****             #if(ADC_SAR_Seq_1_TOTAL_CHANNELS_NUM > 9u)
  136:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****                 ,(uint8)(ADC_SAR_Seq_1_cy_psoc4_sarmux_8__CH_9_PORT << 4u) |
  137:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****                  (uint8)ADC_SAR_Seq_1_cy_psoc4_sarmux_8__CH_9_PIN
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 5
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 5
 
 
  138:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****             #endif /* End ADC_SAR_Seq_1_TOTAL_CHANNELS_NUM > 9u */
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  179:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         /* Enable the SAR internal pump when global pump is enabled */
  180:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         (((ADC_SAR_Seq_1_PUMP_CTRL_REG & ADC_SAR_Seq_1_PUMP_CTRL_ENABLED) != 0u) ? 
  105              		.loc 1 180 0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 6
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 6
 
 
  106 001e 564B     		ldr	r3, .L17+8
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  146 0056 554A     		ldr	r2, .L17+60
  147 0058 1268     		ldr	r2, [r2]
  148 005a 8021     		mov	r1, #128
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 7
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 7
 
 
  149 005c 4902     		lsl	r1, r1, #9
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  173              		.loc 1 220 0 discriminator 4
  174 0082 7B68     		ldr	r3, [r7, #4]
  175 0084 8022     		mov	r2, #128
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 8
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 8
 
 
  176 0086 9205     		lsl	r2, r2, #22
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  251:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         #endif /* ADC_SAR_Seq_1_INJ_CHANNEL_ENABLED */
  252:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         {
  253:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****             CY_SET_REG32((reg32 *)(ADC_SAR_Seq_1_SAR_CHAN_CONFIG_IND + (uint32)(chNum << 2)), tmpRe
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 9
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 9
 
 
  200              		.loc 1 253 0
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  264:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         }
  265:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         #if(ADC_SAR_Seq_1_INJ_CHANNEL_ENABLED)
  266:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****             else
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 10
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 10
 
 
  267:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****             {
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  296:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****                 ADC_SAR_Seq_1_offset[chNum] = (int16)(counts / -2);
  297:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****             #else
  298:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****                 ADC_SAR_Seq_1_offset[chNum] = 0;
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 11
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 11
 
 
  269              		.loc 1 298 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  308 015c D150     		str	r1, [r2, r3]
  232:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     {
  309              		.loc 1 232 0 discriminator 2
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 12
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 12
 
 
  310 015e FB68     		ldr	r3, [r7, #12]
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  361              		.type	ADC_SAR_Seq_1_Enable, %function
  362              	ADC_SAR_Seq_1_Enable:
  363              	.LFB4:
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 13
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 13
 
 
  315:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  390 001e 0906     		lsl	r1, r1, #24
  391 0020 0A43     		orr	r2, r1
  392 0022 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 14
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 14
 
 
  343:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  423 0002 00AF     		add	r7, sp, #0
  424              		.cfi_def_cfa_register 7
  367:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     ADC_SAR_Seq_1_SAR_CTRL_REG &= (uint32)~ADC_SAR_Seq_1_ENABLE;
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 15
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 15
 
 
  425              		.loc 1 367 0
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  454              		.cfi_def_cfa_offset 8
  455              		.cfi_offset 7, -8
  456              		.cfi_offset 14, -4
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 16
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 16
 
 
  457 0002 00AF     		add	r7, sp, #0
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  486              		.loc 1 417 0
  487              		.cfi_startproc
  488 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 17
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 17
 
 
  489              		.cfi_def_cfa_offset 8
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  440:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *  ADC_RETURN_STATUS_INJ    -> Immediately returns conversion result status
  441:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *                              for injection channel
  442:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *  ADC_WAIT_FOR_RESULT_INJ  -> Does not return until ADC completes injection
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 18
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 18
 
 
  443:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *                              channel conversion
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  461:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         if(status != 0u)
  557              		.loc 1 461 0 is_stmt 1
  558 002c FB68     		ldr	r3, [r7, #12]
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 19
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 19
 
 
  559 002e 002B     		cmp	r3, #0
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  588              	.LFB9:
  487:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** 
  488:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 20
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 20
 
 
  489:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** /*******************************************************************************
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  618 0024 1B68     		ldr	r3, [r3]
  619 0026 1B04     		lsl	r3, r3, #16
  620 0028 1B0C     		lsr	r3, r3, #16
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 21
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 21
 
 
  621 002a FB60     		str	r3, [r7, #12]
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  536:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** * Parameters:
  537:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *  mask: Sets which channels that will be
  538:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *  scanned. Setting bits for channels that do not exist will have no
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 22
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 22
 
 
  539:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *  effect. For example, if only 6 channels were enabled, setting a
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  556:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** 
  557:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     /*******************************************************************************
  558:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     * Function Name: ADC_SAR_Seq_1_EnableInjection
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 23
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 23
 
 
  559:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     ********************************************************************************
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  707 0012 1A60     		str	r2, [r3]
  596:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     ADC_SAR_Seq_1_SAR_RANGE_THRES_REG |= lowLimit & ADC_SAR_Seq_1_RANGE_LOW_MASK;
  708              		.loc 1 596 0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 24
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 24
 
 
  709 0014 054B     		ldr	r3, .L51
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  744              		.cfi_def_cfa_offset 16
  745 0004 00AF     		add	r7, sp, #0
  746              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 25
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 25
 
 
  747 0006 7860     		str	r0, [r7, #4]
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  634:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** * Return:
  635:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *  None.
  636:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 26
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 26
 
 
  637:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *******************************************************************************/
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  654:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *  will have no effect. For example, if only 8 channels were enabled,
  655:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *  setting a mask of 0x01C0 would only enable two channels (6 and 7).
  656:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 27
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 27
 
 
  657:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** * Return:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  674:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *   to substract the offset from the given reading
  675:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *   before calculating the voltage conversion.
  676:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** *
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 28
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 28
 
 
  677:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** * Parameters:
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  892              		.align	2
  893              	.L64:
  894 002c 00000000 		.word	ADC_SAR_Seq_1_offset
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 29
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 29
 
 
  895              		.cfi_endproc
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  918              		.loc 1 726 0
  919 000a 7B68     		ldr	r3, [r7, #4]
  920 000c 002B     		cmp	r3, #0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 30
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 30
 
 
  921 000e 02D0     		beq	.L67
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  750:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     * Global variables:
  751:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     *  ADC_SAR_Seq_1_countsPer10Volt:  used to convert ADC counts to mVolts.
  752:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     *  ADC_SAR_Seq_1_Offset:  Used as the offset while converting ADC counts
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 31
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 31
 
 
  753:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     *   to mVolts.
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  986 0030 1A80     		strh	r2, [r3]
  773:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** 
  774:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         mVolts = (int16)((((int32)adcCounts * ADC_SAR_Seq_1_10MV_COUNTS) + ( (adcCounts > 0) ?
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 32
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 32
 
 
  987              		.loc 1 774 0
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1037 0082 FB18     		add	r3, r7, r3
  1038 0084 1A80     		strh	r2, [r3]
  777:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 33
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 33
 
 
  778:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         return( mVolts );
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  802:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     * Theory:
  803:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     *  Care must be taken to not exceed the maximum value for a 31 bit signed
  804:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     *  number in the conversion to uVolts and at the same time not loose
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 34
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 34
 
 
  805:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****     *  resolution.
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1101 0028 FB18     		add	r3, r7, r3
  1102 002a 1A88     		ldrh	r2, [r3]
  1103 002c 8BB2     		uxth	r3, r1
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 35
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 35
 
 
  1104 002e D31A     		sub	r3, r2, r3
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1153 008c 00000000 		.word	ADC_SAR_Seq_1_countsPer10Volt
  1154              		.cfi_endproc
  1155              	.LFE18:
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 36
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 36
 
 
  1156              		.size	ADC_SAR_Seq_1_CountsTo_uVolts, .-ADC_SAR_Seq_1_CountsTo_uVolts
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  859:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         /* Halt CPU in debug mode if channel is out of valid range */
  860:Generated_Source\PSoC4/ADC_SAR_Seq_1.c ****         CYASSERT(chan < ADC_SAR_Seq_1_TOTAL_CHANNELS_NUM);
  1183              		.loc 1 860 0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 37
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 37
 
 
  1184 000e 7B68     		ldr	r3, [r7, #4]
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1225 0060 FFF7FEFF 		bl	__aeabi_fdiv
  1226 0064 031C     		add	r3, r0, #0
  1227 0066 FB60     		str	r3, [r7, #12]
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 38
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 38
 
 
  874:Generated_Source\PSoC4/ADC_SAR_Seq_1.c **** 
@@ -2251,48 +2251,48 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1252 0006 00000000 		.4byte	.Ldebug_abbrev0
  1253 000a 04       		.byte	0x4
  1254 000b 01       		.uleb128 0x1
- 1255 000c 61000000 		.4byte	.LASF59
+ 1255 000c 20000000 		.4byte	.LASF59
  1256 0010 01       		.byte	0x1
- 1257 0011 A2010000 		.4byte	.LASF60
- 1258 0015 00000000 		.4byte	.LASF61
+ 1257 0011 8C030000 		.4byte	.LASF60
+ 1258 0015 61010000 		.4byte	.LASF61
  1259 0019 00000000 		.4byte	.Ldebug_ranges0+0
  1260 001d 00000000 		.4byte	0
  1261 0021 00000000 		.4byte	.Ldebug_line0
  1262 0025 02       		.uleb128 0x2
  1263 0026 01       		.byte	0x1
  1264 0027 06       		.byte	0x6
- 1265 0028 13040000 		.4byte	.LASF0
+ 1265 0028 2B040000 		.4byte	.LASF0
  1266 002c 02       		.uleb128 0x2
  1267 002d 01       		.byte	0x1
  1268 002e 08       		.byte	0x8
- 1269 002f D3010000 		.4byte	.LASF1
+ 1269 002f C4010000 		.4byte	.LASF1
  1270 0033 02       		.uleb128 0x2
  1271 0034 02       		.byte	0x2
  1272 0035 05       		.byte	0x5
- 1273 0036 C1030000 		.4byte	.LASF2
+ 1273 0036 D9030000 		.4byte	.LASF2
  1274 003a 02       		.uleb128 0x2
  1275 003b 02       		.byte	0x2
  1276 003c 07       		.byte	0x7
- 1277 003d 1F040000 		.4byte	.LASF3
+ 1277 003d 37040000 		.4byte	.LASF3
  1278 0041 02       		.uleb128 0x2
  1279 0042 04       		.byte	0x4
  1280 0043 05       		.byte	0x5
- 1281 0044 EC030000 		.4byte	.LASF4
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 39
+ 1281 0044 04040000 		.4byte	.LASF4
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 39
 
 
  1282 0048 02       		.uleb128 0x2
  1283 0049 04       		.byte	0x4
  1284 004a 07       		.byte	0x7
- 1285 004b 15020000 		.4byte	.LASF5
+ 1285 004b 06020000 		.4byte	.LASF5
  1286 004f 02       		.uleb128 0x2
  1287 0050 08       		.byte	0x8
  1288 0051 05       		.byte	0x5
- 1289 0052 82030000 		.4byte	.LASF6
+ 1289 0052 73030000 		.4byte	.LASF6
  1290 0056 02       		.uleb128 0x2
  1291 0057 08       		.byte	0x8
  1292 0058 07       		.byte	0x7
- 1293 0059 1E030000 		.4byte	.LASF7
+ 1293 0059 0F030000 		.4byte	.LASF7
  1294 005d 03       		.uleb128 0x3
  1295 005e 04       		.byte	0x4
  1296 005f 05       		.byte	0x5
@@ -2300,59 +2300,59 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1298 0064 02       		.uleb128 0x2
  1299 0065 04       		.byte	0x4
  1300 0066 07       		.byte	0x7
- 1301 0067 EF020000 		.4byte	.LASF8
+ 1301 0067 E0020000 		.4byte	.LASF8
  1302 006b 04       		.uleb128 0x4
- 1303 006c CB030000 		.4byte	.LASF9
+ 1303 006c E3030000 		.4byte	.LASF9
  1304 0070 02       		.byte	0x2
  1305 0071 B901     		.2byte	0x1b9
  1306 0073 2C000000 		.4byte	0x2c
  1307 0077 04       		.uleb128 0x4
- 1308 0078 BE020000 		.4byte	.LASF10
+ 1308 0078 AF020000 		.4byte	.LASF10
  1309 007c 02       		.byte	0x2
  1310 007d BA01     		.2byte	0x1ba
  1311 007f 3A000000 		.4byte	0x3a
  1312 0083 04       		.uleb128 0x4
- 1313 0084 CF020000 		.4byte	.LASF11
+ 1313 0084 C0020000 		.4byte	.LASF11
  1314 0088 02       		.byte	0x2
  1315 0089 BB01     		.2byte	0x1bb
  1316 008b 48000000 		.4byte	0x48
  1317 008f 04       		.uleb128 0x4
- 1318 0090 0F020000 		.4byte	.LASF12
+ 1318 0090 00020000 		.4byte	.LASF12
  1319 0094 02       		.byte	0x2
  1320 0095 BD01     		.2byte	0x1bd
  1321 0097 33000000 		.4byte	0x33
  1322 009b 04       		.uleb128 0x4
- 1323 009c 27020000 		.4byte	.LASF13
+ 1323 009c 18020000 		.4byte	.LASF13
  1324 00a0 02       		.byte	0x2
  1325 00a1 BE01     		.2byte	0x1be
  1326 00a3 41000000 		.4byte	0x41
  1327 00a7 04       		.uleb128 0x4
- 1328 00a8 9A010000 		.4byte	.LASF14
+ 1328 00a8 59010000 		.4byte	.LASF14
  1329 00ac 02       		.byte	0x2
  1330 00ad BF01     		.2byte	0x1bf
  1331 00af B3000000 		.4byte	0xb3
  1332 00b3 02       		.uleb128 0x2
  1333 00b4 04       		.byte	0x4
  1334 00b5 04       		.byte	0x4
- 1335 00b6 0B010000 		.4byte	.LASF15
+ 1335 00b6 CA000000 		.4byte	.LASF15
  1336 00ba 02       		.uleb128 0x2
  1337 00bb 08       		.byte	0x8
  1338 00bc 04       		.byte	0x4
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 40
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 40
 
 
- 1339 00bd 73020000 		.4byte	.LASF16
+ 1339 00bd 64020000 		.4byte	.LASF16
  1340 00c1 04       		.uleb128 0x4
- 1341 00c2 39040000 		.4byte	.LASF17
+ 1341 00c2 51040000 		.4byte	.LASF17
  1342 00c6 02       		.byte	0x2
  1343 00c7 C401     		.2byte	0x1c4
  1344 00c9 4F000000 		.4byte	0x4f
  1345 00cd 02       		.uleb128 0x2
  1346 00ce 01       		.byte	0x1
  1347 00cf 08       		.byte	0x8
- 1348 00d0 70010000 		.4byte	.LASF18
+ 1348 00d0 2F010000 		.4byte	.LASF18
  1349 00d4 04       		.uleb128 0x4
- 1350 00d5 5B000000 		.4byte	.LASF19
+ 1350 00d5 1A000000 		.4byte	.LASF19
  1351 00d9 02       		.byte	0x2
  1352 00da 6502     		.2byte	0x265
  1353 00dc E0000000 		.4byte	0xe0
@@ -2361,9 +2361,9 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1356 00e5 02       		.uleb128 0x2
  1357 00e6 04       		.byte	0x4
  1358 00e7 07       		.byte	0x7
- 1359 00e8 79030000 		.4byte	.LASF20
+ 1359 00e8 6A030000 		.4byte	.LASF20
  1360 00ec 06       		.uleb128 0x6
- 1361 00ed 5F020000 		.4byte	.LASF24
+ 1361 00ed 50020000 		.4byte	.LASF24
  1362 00f1 01       		.byte	0x1
  1363 00f2 3F       		.byte	0x3f
  1364 00f3 00000000 		.4byte	.LFB2
@@ -2371,7 +2371,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1366 00fb 01       		.uleb128 0x1
  1367 00fc 9C       		.byte	0x9c
  1368 00fd 07       		.uleb128 0x7
- 1369 00fe 3F040000 		.4byte	.LASF35
+ 1369 00fe 57040000 		.4byte	.LASF35
  1370 0102 01       		.byte	0x1
  1371 0103 5E       		.byte	0x5e
  1372 0104 00000000 		.4byte	.LFB3
@@ -2380,7 +2380,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1375 010d 9C       		.byte	0x9c
  1376 010e 3D010000 		.4byte	0x13d
  1377 0112 08       		.uleb128 0x8
- 1378 0113 95030000 		.4byte	.LASF21
+ 1378 0113 86030000 		.4byte	.LASF21
  1379 0117 01       		.byte	0x1
  1380 0118 60       		.byte	0x60
  1381 0119 83000000 		.4byte	0x83
@@ -2388,7 +2388,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1383 011e 91       		.byte	0x91
  1384 011f 74       		.sleb128 -12
  1385 0120 08       		.uleb128 0x8
- 1386 0121 C9010000 		.4byte	.LASF22
+ 1386 0121 BA010000 		.4byte	.LASF22
  1387 0125 01       		.byte	0x1
  1388 0126 61       		.byte	0x61
  1389 0127 83000000 		.4byte	0x83
@@ -2396,9 +2396,9 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1391 012c 91       		.byte	0x91
  1392 012d 6C       		.sleb128 -20
  1393 012e 08       		.uleb128 0x8
- 1394 012f 17030000 		.4byte	.LASF23
+ 1394 012f 08030000 		.4byte	.LASF23
  1395 0133 01       		.byte	0x1
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 41
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 41
 
 
  1396 0134 62       		.byte	0x62
@@ -2408,7 +2408,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1400 013b 70       		.sleb128 -16
  1401 013c 00       		.byte	0
  1402 013d 09       		.uleb128 0x9
- 1403 013e 2D020000 		.4byte	.LASF25
+ 1403 013e 1E020000 		.4byte	.LASF25
  1404 0142 01       		.byte	0x1
  1405 0143 4A01     		.2byte	0x14a
  1406 0145 00000000 		.4byte	.LFB4
@@ -2416,7 +2416,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1408 014d 01       		.uleb128 0x1
  1409 014e 9C       		.byte	0x9c
  1410 014f 0A       		.uleb128 0xa
- 1411 0150 E1010000 		.4byte	.LASF26
+ 1411 0150 D2010000 		.4byte	.LASF26
  1412 0154 01       		.byte	0x1
  1413 0155 6D01     		.2byte	0x16d
  1414 0157 00000000 		.4byte	.LFB5
@@ -2424,7 +2424,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1416 015f 01       		.uleb128 0x1
  1417 0160 9C       		.byte	0x9c
  1418 0161 0A       		.uleb128 0xa
- 1419 0162 FC020000 		.4byte	.LASF27
+ 1419 0162 ED020000 		.4byte	.LASF27
  1420 0166 01       		.byte	0x1
  1421 0167 8701     		.2byte	0x187
  1422 0169 00000000 		.4byte	.LFB6
@@ -2432,7 +2432,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1424 0171 01       		.uleb128 0x1
  1425 0172 9C       		.byte	0x9c
  1426 0173 0A       		.uleb128 0xa
- 1427 0174 41000000 		.4byte	.LASF28
+ 1427 0174 00000000 		.4byte	.LASF28
  1428 0178 01       		.byte	0x1
  1429 0179 A001     		.2byte	0x1a0
  1430 017b 00000000 		.4byte	.LFB7
@@ -2440,7 +2440,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1432 0183 01       		.uleb128 0x1
  1433 0184 9C       		.byte	0x9c
  1434 0185 0B       		.uleb128 0xb
- 1435 0186 F5030000 		.4byte	.LASF30
+ 1435 0186 0D040000 		.4byte	.LASF30
  1436 018a 01       		.byte	0x1
  1437 018b C201     		.2byte	0x1c2
  1438 018d 83000000 		.4byte	0x83
@@ -2450,7 +2450,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1442 019a 9C       		.byte	0x9c
  1443 019b BE010000 		.4byte	0x1be
  1444 019f 0C       		.uleb128 0xc
- 1445 01a0 B9030000 		.4byte	.LASF32
+ 1445 01a0 D1030000 		.4byte	.LASF32
  1446 01a4 01       		.byte	0x1
  1447 01a5 C201     		.2byte	0x1c2
  1448 01a7 83000000 		.4byte	0x83
@@ -2458,10 +2458,10 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1450 01ac 91       		.byte	0x91
  1451 01ad 6C       		.sleb128 -20
  1452 01ae 0D       		.uleb128 0xd
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 42
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 42
 
 
- 1453 01af 75010000 		.4byte	.LASF29
+ 1453 01af 34010000 		.4byte	.LASF29
  1454 01b3 01       		.byte	0x1
  1455 01b4 C401     		.2byte	0x1c4
  1456 01b6 83000000 		.4byte	0x83
@@ -2470,7 +2470,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1459 01bc 74       		.sleb128 -12
  1460 01bd 00       		.byte	0
  1461 01be 0E       		.uleb128 0xe
- 1462 01bf 52040000 		.4byte	.LASF31
+ 1462 01bf 6A040000 		.4byte	.LASF31
  1463 01c3 01       		.byte	0x1
  1464 01c4 F801     		.2byte	0x1f8
  1465 01c6 8F000000 		.4byte	0x8f
@@ -2480,7 +2480,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1469 01d3 9C       		.byte	0x9c
  1470 01d4 F7010000 		.4byte	0x1f7
  1471 01d8 0C       		.uleb128 0xc
- 1472 01d9 6D030000 		.4byte	.LASF33
+ 1472 01d9 5E030000 		.4byte	.LASF33
  1473 01dd 01       		.byte	0x1
  1474 01de F801     		.2byte	0x1f8
  1475 01e0 83000000 		.4byte	0x83
@@ -2488,7 +2488,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1477 01e5 91       		.byte	0x91
  1478 01e6 6C       		.sleb128 -20
  1479 01e7 0D       		.uleb128 0xd
- 1480 01e8 32040000 		.4byte	.LASF34
+ 1480 01e8 4A040000 		.4byte	.LASF34
  1481 01ec 01       		.byte	0x1
  1482 01ed FA01     		.2byte	0x1fa
  1483 01ef 83000000 		.4byte	0x83
@@ -2497,7 +2497,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1486 01f5 74       		.sleb128 -12
  1487 01f6 00       		.byte	0
  1488 01f7 0F       		.uleb128 0xf
- 1489 01f8 4D030000 		.4byte	.LASF36
+ 1489 01f8 3E030000 		.4byte	.LASF36
  1490 01fc 01       		.byte	0x1
  1491 01fd 2502     		.2byte	0x225
  1492 01ff 00000000 		.4byte	.LFB10
@@ -2506,7 +2506,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1495 0208 9C       		.byte	0x9c
  1496 0209 1D020000 		.4byte	0x21d
  1497 020d 0C       		.uleb128 0xc
- 1498 020e 90030000 		.4byte	.LASF37
+ 1498 020e 81030000 		.4byte	.LASF37
  1499 0212 01       		.byte	0x1
  1500 0213 2502     		.2byte	0x225
  1501 0215 83000000 		.4byte	0x83
@@ -2515,10 +2515,10 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1504 021b 74       		.sleb128 -12
  1505 021c 00       		.byte	0
  1506 021d 0F       		.uleb128 0xf
- 1507 021e 1B010000 		.4byte	.LASF38
+ 1507 021e DA000000 		.4byte	.LASF38
  1508 0222 01       		.byte	0x1
  1509 0223 5102     		.2byte	0x251
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 43
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 43
 
 
  1510 0225 00000000 		.4byte	.LFB11
@@ -2527,7 +2527,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1513 022e 9C       		.byte	0x9c
  1514 022f 43020000 		.4byte	0x243
  1515 0233 0C       		.uleb128 0xc
- 1516 0234 AD020000 		.4byte	.LASF39
+ 1516 0234 9E020000 		.4byte	.LASF39
  1517 0238 01       		.byte	0x1
  1518 0239 5102     		.2byte	0x251
  1519 023b 83000000 		.4byte	0x83
@@ -2536,7 +2536,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1522 0241 74       		.sleb128 -12
  1523 0242 00       		.byte	0
  1524 0243 0F       		.uleb128 0xf
- 1525 0244 F4010000 		.4byte	.LASF40
+ 1525 0244 E5010000 		.4byte	.LASF40
  1526 0248 01       		.byte	0x1
  1527 0249 6602     		.2byte	0x266
  1528 024b 00000000 		.4byte	.LFB12
@@ -2545,7 +2545,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1531 0254 9C       		.byte	0x9c
  1532 0255 69020000 		.4byte	0x269
  1533 0259 0C       		.uleb128 0xc
- 1534 025a 11010000 		.4byte	.LASF41
+ 1534 025a D0000000 		.4byte	.LASF41
  1535 025e 01       		.byte	0x1
  1536 025f 6602     		.2byte	0x266
  1537 0261 83000000 		.4byte	0x83
@@ -2554,7 +2554,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1540 0267 74       		.sleb128 -12
  1541 0268 00       		.byte	0
  1542 0269 0F       		.uleb128 0xf
- 1543 026a D1030000 		.4byte	.LASF42
+ 1543 026a E9030000 		.4byte	.LASF42
  1544 026e 01       		.byte	0x1
  1545 026f 7E02     		.2byte	0x27e
  1546 0271 00000000 		.4byte	.LFB13
@@ -2563,7 +2563,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1549 027a 9C       		.byte	0x9c
  1550 027b 8F020000 		.4byte	0x28f
  1551 027f 0C       		.uleb128 0xc
- 1552 0280 90030000 		.4byte	.LASF37
+ 1552 0280 81030000 		.4byte	.LASF37
  1553 0284 01       		.byte	0x1
  1554 0285 7E02     		.2byte	0x27e
  1555 0287 83000000 		.4byte	0x83
@@ -2572,19 +2572,19 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1558 028d 74       		.sleb128 -12
  1559 028e 00       		.byte	0
  1560 028f 0F       		.uleb128 0xf
- 1561 0290 D6020000 		.4byte	.LASF43
+ 1561 0290 C7020000 		.4byte	.LASF43
  1562 0294 01       		.byte	0x1
  1563 0295 9502     		.2byte	0x295
  1564 0297 00000000 		.4byte	.LFB14
  1565 029b 1C000000 		.4byte	.LFE14-.LFB14
  1566 029f 01       		.uleb128 0x1
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 44
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 44
 
 
  1567 02a0 9C       		.byte	0x9c
  1568 02a1 B5020000 		.4byte	0x2b5
  1569 02a5 0C       		.uleb128 0xc
- 1570 02a6 90030000 		.4byte	.LASF37
+ 1570 02a6 81030000 		.4byte	.LASF37
  1571 02aa 01       		.byte	0x1
  1572 02ab 9502     		.2byte	0x295
  1573 02ad 83000000 		.4byte	0x83
@@ -2593,7 +2593,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1576 02b3 74       		.sleb128 -12
  1577 02b4 00       		.byte	0
  1578 02b5 10       		.uleb128 0x10
- 1579 02b6 35030000 		.4byte	.LASF44
+ 1579 02b6 26030000 		.4byte	.LASF44
  1580 02ba 01       		.byte	0x1
  1581 02bb B102     		.2byte	0x2b1
  1582 02bd 00000000 		.4byte	.LFB15
@@ -2602,7 +2602,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1585 02c6 9C       		.byte	0x9c
  1586 02c7 EA020000 		.4byte	0x2ea
  1587 02cb 0C       		.uleb128 0xc
- 1588 02cc 6D030000 		.4byte	.LASF33
+ 1588 02cc 5E030000 		.4byte	.LASF33
  1589 02d0 01       		.byte	0x1
  1590 02d1 B102     		.2byte	0x2b1
  1591 02d3 83000000 		.4byte	0x83
@@ -2610,7 +2610,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1593 02d8 91       		.byte	0x91
  1594 02d9 74       		.sleb128 -12
  1595 02da 0C       		.uleb128 0xc
- 1596 02db 04010000 		.4byte	.LASF45
+ 1596 02db C3000000 		.4byte	.LASF45
  1597 02df 01       		.byte	0x1
  1598 02e0 B102     		.2byte	0x2b1
  1599 02e2 8F000000 		.4byte	0x8f
@@ -2619,7 +2619,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1602 02e8 72       		.sleb128 -14
  1603 02e9 00       		.byte	0
  1604 02ea 10       		.uleb128 0x10
- 1605 02eb 97020000 		.4byte	.LASF46
+ 1605 02eb 88020000 		.4byte	.LASF46
  1606 02ef 01       		.byte	0x1
  1607 02f0 D302     		.2byte	0x2d3
  1608 02f2 00000000 		.4byte	.LFB16
@@ -2628,7 +2628,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1611 02fb 9C       		.byte	0x9c
  1612 02fc 1F030000 		.4byte	0x31f
  1613 0300 0C       		.uleb128 0xc
- 1614 0301 6D030000 		.4byte	.LASF33
+ 1614 0301 5E030000 		.4byte	.LASF33
  1615 0305 01       		.byte	0x1
  1616 0306 D302     		.2byte	0x2d3
  1617 0308 83000000 		.4byte	0x83
@@ -2636,9 +2636,9 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1619 030d 91       		.byte	0x91
  1620 030e 74       		.sleb128 -12
  1621 030f 0C       		.uleb128 0xc
- 1622 0310 B6020000 		.4byte	.LASF47
+ 1622 0310 A7020000 		.4byte	.LASF47
  1623 0314 01       		.byte	0x1
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 45
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 45
 
 
  1624 0315 D302     		.2byte	0x2d3
@@ -2648,7 +2648,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1628 031d 70       		.sleb128 -16
  1629 031e 00       		.byte	0
  1630 031f 0E       		.uleb128 0xe
- 1631 0320 9B030000 		.4byte	.LASF48
+ 1631 0320 B3030000 		.4byte	.LASF48
  1632 0324 01       		.byte	0x1
  1633 0325 F402     		.2byte	0x2f4
  1634 0327 8F000000 		.4byte	0x8f
@@ -2658,7 +2658,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1638 0334 9C       		.byte	0x9c
  1639 0335 67030000 		.4byte	0x367
  1640 0339 0C       		.uleb128 0xc
- 1641 033a 6D030000 		.4byte	.LASF33
+ 1641 033a 5E030000 		.4byte	.LASF33
  1642 033e 01       		.byte	0x1
  1643 033f F402     		.2byte	0x2f4
  1644 0341 83000000 		.4byte	0x83
@@ -2666,7 +2666,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1646 0346 91       		.byte	0x91
  1647 0347 6C       		.sleb128 -20
  1648 0348 0C       		.uleb128 0xc
- 1649 0349 C5020000 		.4byte	.LASF49
+ 1649 0349 B6020000 		.4byte	.LASF49
  1650 034d 01       		.byte	0x1
  1651 034e F402     		.2byte	0x2f4
  1652 0350 8F000000 		.4byte	0x8f
@@ -2674,7 +2674,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1654 0355 91       		.byte	0x91
  1655 0356 6A       		.sleb128 -22
  1656 0357 0D       		.uleb128 0xd
- 1657 0358 72030000 		.4byte	.LASF50
+ 1657 0358 63030000 		.4byte	.LASF50
  1658 035c 01       		.byte	0x1
  1659 035d F602     		.2byte	0x2f6
  1660 035f 8F000000 		.4byte	0x8f
@@ -2683,7 +2683,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1663 0365 76       		.sleb128 -10
  1664 0366 00       		.byte	0
  1665 0367 0E       		.uleb128 0xe
- 1666 0368 7C010000 		.4byte	.LASF51
+ 1666 0368 3B010000 		.4byte	.LASF51
  1667 036c 01       		.byte	0x1
  1668 036d 2A03     		.2byte	0x32a
  1669 036f 9B000000 		.4byte	0x9b
@@ -2693,18 +2693,18 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1673 037c 9C       		.byte	0x9c
  1674 037d AF030000 		.4byte	0x3af
  1675 0381 0C       		.uleb128 0xc
- 1676 0382 6D030000 		.4byte	.LASF33
+ 1676 0382 5E030000 		.4byte	.LASF33
  1677 0386 01       		.byte	0x1
  1678 0387 2A03     		.2byte	0x32a
  1679 0389 83000000 		.4byte	0x83
  1680 038d 02       		.uleb128 0x2
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 46
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 46
 
 
  1681 038e 91       		.byte	0x91
  1682 038f 64       		.sleb128 -28
  1683 0390 0C       		.uleb128 0xc
- 1684 0391 C5020000 		.4byte	.LASF49
+ 1684 0391 B6020000 		.4byte	.LASF49
  1685 0395 01       		.byte	0x1
  1686 0396 2A03     		.2byte	0x32a
  1687 0398 8F000000 		.4byte	0x8f
@@ -2712,7 +2712,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1689 039d 91       		.byte	0x91
  1690 039e 62       		.sleb128 -30
  1691 039f 0D       		.uleb128 0xd
- 1692 03a0 53010000 		.4byte	.LASF52
+ 1692 03a0 12010000 		.4byte	.LASF52
  1693 03a4 01       		.byte	0x1
  1694 03a5 2C03     		.2byte	0x32c
  1695 03a7 C1000000 		.4byte	0xc1
@@ -2721,7 +2721,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1698 03ad 68       		.sleb128 -24
  1699 03ae 00       		.byte	0
  1700 03af 0E       		.uleb128 0xe
- 1701 03b0 7A020000 		.4byte	.LASF53
+ 1701 03b0 6B020000 		.4byte	.LASF53
  1702 03b4 01       		.byte	0x1
  1703 03b5 5703     		.2byte	0x357
  1704 03b7 A7000000 		.4byte	0xa7
@@ -2731,7 +2731,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1708 03c4 9C       		.byte	0x9c
  1709 03c5 F7030000 		.4byte	0x3f7
  1710 03c9 0C       		.uleb128 0xc
- 1711 03ca 6D030000 		.4byte	.LASF33
+ 1711 03ca 5E030000 		.4byte	.LASF33
  1712 03ce 01       		.byte	0x1
  1713 03cf 5703     		.2byte	0x357
  1714 03d1 83000000 		.4byte	0x83
@@ -2739,7 +2739,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1716 03d6 91       		.byte	0x91
  1717 03d7 64       		.sleb128 -28
  1718 03d8 0C       		.uleb128 0xc
- 1719 03d9 C5020000 		.4byte	.LASF49
+ 1719 03d9 B6020000 		.4byte	.LASF49
  1720 03dd 01       		.byte	0x1
  1721 03de 5703     		.2byte	0x357
  1722 03e0 8F000000 		.4byte	0x8f
@@ -2747,7 +2747,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1724 03e5 91       		.byte	0x91
  1725 03e6 62       		.sleb128 -30
  1726 03e7 0D       		.uleb128 0xd
- 1727 03e8 67030000 		.4byte	.LASF54
+ 1727 03e8 58030000 		.4byte	.LASF54
  1728 03ec 01       		.byte	0x1
  1729 03ed 5903     		.2byte	0x359
  1730 03ef A7000000 		.4byte	0xa7
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1735 03f7 11       		.uleb128 0x11
  1736 03f8 83000000 		.4byte	0x83
  1737 03fc 07040000 		.4byte	0x407
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 47
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 47
 
 
  1738 0400 12       		.uleb128 0x12
@@ -2766,7 +2766,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1740 0405 00       		.byte	0
  1741 0406 00       		.byte	0
  1742 0407 08       		.uleb128 0x8
- 1743 0408 42020000 		.4byte	.LASF55
+ 1743 0408 33020000 		.4byte	.LASF55
  1744 040c 01       		.byte	0x1
  1745 040d 21       		.byte	0x21
  1746 040e 18040000 		.4byte	0x418
@@ -2776,7 +2776,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1750 0418 13       		.uleb128 0x13
  1751 0419 F7030000 		.4byte	0x3f7
  1752 041d 14       		.uleb128 0x14
- 1753 041e 5A010000 		.4byte	.LASF56
+ 1753 041e 19010000 		.4byte	.LASF56
  1754 0422 01       		.byte	0x1
  1755 0423 18       		.byte	0x18
  1756 0424 6B000000 		.4byte	0x6b
@@ -2791,7 +2791,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1765 043c 00       		.byte	0
  1766 043d 00       		.byte	0
  1767 043e 14       		.uleb128 0x14
- 1768 043f EF000000 		.4byte	.LASF57
+ 1768 043f AE000000 		.4byte	.LASF57
  1769 0443 01       		.byte	0x1
  1770 0444 19       		.byte	0x19
  1771 0445 4F040000 		.4byte	0x44f
@@ -2808,7 +2808,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1782 0462 00       		.byte	0
  1783 0463 00       		.byte	0
  1784 0464 14       		.uleb128 0x14
- 1785 0465 35010000 		.4byte	.LASF58
+ 1785 0465 F4000000 		.4byte	.LASF58
  1786 0469 01       		.byte	0x1
  1787 046a 1A       		.byte	0x1a
  1788 046b 75040000 		.4byte	0x475
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1792 0475 05       		.uleb128 0x5
  1793 0476 54040000 		.4byte	0x454
  1794 047a 00       		.byte	0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 48
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 48
 
 
  1795              		.section	.debug_abbrev,"",%progbits
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1849 0034 00       		.byte	0
  1850 0035 00       		.byte	0
  1851 0036 05       		.uleb128 0x5
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 49
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 49
 
 
  1852 0037 35       		.uleb128 0x35
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1906 006f 08       		.uleb128 0x8
  1907 0070 34       		.uleb128 0x34
  1908 0071 00       		.byte	0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 50
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 50
 
 
  1909 0072 03       		.uleb128 0x3
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  1963 00a9 9742     		.uleb128 0x2117
  1964 00ab 19       		.uleb128 0x19
  1965 00ac 00       		.byte	0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 51
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 51
 
 
  1966 00ad 00       		.byte	0
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  2020 00e4 02       		.uleb128 0x2
  2021 00e5 18       		.uleb128 0x18
  2022 00e6 00       		.byte	0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 52
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 52
 
 
  2023 00e7 00       		.byte	0
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  2077 011f 2E       		.uleb128 0x2e
  2078 0120 01       		.byte	0x1
  2079 0121 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 53
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 53
 
 
  2080 0122 19       		.uleb128 0x19
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  2134 0159 0B       		.uleb128 0xb
  2135 015a 49       		.uleb128 0x49
  2136 015b 13       		.uleb128 0x13
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 54
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 54
 
 
  2137 015c 3F       		.uleb128 0x3f
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  2191              	.Ldebug_ranges0:
  2192 0000 00000000 		.4byte	.LFB2
  2193 0004 24000000 		.4byte	.LFE2
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 55
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 55
 
 
  2194 0008 00000000 		.4byte	.LFB3
@@ -3284,321 +3284,321 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 1
  2232      00000201 
  2232      FB0E0D00 
  2232      01010101 
- 2233              	.LASF61:
- 2234 0000 433A5C55 		.ascii	"C:\\Users\\Jerry\\Documents\\PSoC Creator\\Workspac"
- 2234      73657273 
- 2234      5C4A6572 
- 2234      72795C44 
- 2234      6F63756D 
- 2235 002e 6530315C 		.ascii	"e01\\Design01.cydsn\000"
- 2235      44657369 
- 2235      676E3031 
- 2235      2E637964 
- 2235      736E00
- 2236              	.LASF28:
- 2237 0041 4144435F 		.ascii	"ADC_SAR_Seq_1_StopConvert\000"
- 2237      5341525F 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 56
+ 2233              	.LASF28:
+ 2234 0000 4144435F 		.ascii	"ADC_SAR_Seq_1_StopConvert\000"
+ 2234      5341525F 
+ 2234      5365715F 
+ 2234      315F5374 
+ 2234      6F70436F 
+ 2235              	.LASF19:
+ 2236 001a 72656733 		.ascii	"reg32\000"
+ 2236      3200
+ 2237              	.LASF59:
+ 2238 0020 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 2238      4320342E 
+ 2238      392E3320 
+ 2238      32303135 
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 56
 
 
- 2237      5365715F 
- 2237      315F5374 
- 2237      6F70436F 
- 2238              	.LASF19:
- 2239 005b 72656733 		.ascii	"reg32\000"
- 2239      3200
- 2240              	.LASF59:
- 2241 0061 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 2241      4320342E 
- 2241      392E3320 
- 2241      32303135 
- 2241      30333033 
- 2242 0094 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 2242      20726576 
- 2242      6973696F 
- 2242      6E203232 
- 2242      31323230 
- 2243 00c7 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 2243      66756E63 
- 2243      74696F6E 
- 2243      2D736563 
- 2243      74696F6E 
- 2244              	.LASF57:
- 2245 00ef 4144435F 		.ascii	"ADC_SAR_Seq_1_offset\000"
- 2245      5341525F 
- 2245      5365715F 
- 2245      315F6F66 
- 2245      66736574 
- 2246              	.LASF45:
- 2247 0104 6F666673 		.ascii	"offset\000"
- 2247      657400
- 2248              	.LASF15:
- 2249 010b 666C6F61 		.ascii	"float\000"
- 2249      7400
- 2250              	.LASF41:
- 2251 0111 68696768 		.ascii	"highLimit\000"
- 2251      4C696D69 
- 2251      7400
- 2252              	.LASF38:
- 2253 011b 4144435F 		.ascii	"ADC_SAR_Seq_1_SetLowLimit\000"
- 2253      5341525F 
- 2253      5365715F 
- 2253      315F5365 
- 2253      744C6F77 
- 2254              	.LASF58:
- 2255 0135 4144435F 		.ascii	"ADC_SAR_Seq_1_countsPer10Volt\000"
- 2255      5341525F 
- 2255      5365715F 
- 2255      315F636F 
- 2255      756E7473 
- 2256              	.LASF52:
- 2257 0153 75566F6C 		.ascii	"uVolts\000"
- 2257      747300
- 2258              	.LASF56:
- 2259 015a 4144435F 		.ascii	"ADC_SAR_Seq_1_initVar\000"
- 2259      5341525F 
- 2259      5365715F 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 57
+ 2238      30333033 
+ 2239 0053 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 2239      20726576 
+ 2239      6973696F 
+ 2239      6E203232 
+ 2239      31323230 
+ 2240 0086 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 2240      66756E63 
+ 2240      74696F6E 
+ 2240      2D736563 
+ 2240      74696F6E 
+ 2241              	.LASF57:
+ 2242 00ae 4144435F 		.ascii	"ADC_SAR_Seq_1_offset\000"
+ 2242      5341525F 
+ 2242      5365715F 
+ 2242      315F6F66 
+ 2242      66736574 
+ 2243              	.LASF45:
+ 2244 00c3 6F666673 		.ascii	"offset\000"
+ 2244      657400
+ 2245              	.LASF15:
+ 2246 00ca 666C6F61 		.ascii	"float\000"
+ 2246      7400
+ 2247              	.LASF41:
+ 2248 00d0 68696768 		.ascii	"highLimit\000"
+ 2248      4C696D69 
+ 2248      7400
+ 2249              	.LASF38:
+ 2250 00da 4144435F 		.ascii	"ADC_SAR_Seq_1_SetLowLimit\000"
+ 2250      5341525F 
+ 2250      5365715F 
+ 2250      315F5365 
+ 2250      744C6F77 
+ 2251              	.LASF58:
+ 2252 00f4 4144435F 		.ascii	"ADC_SAR_Seq_1_countsPer10Volt\000"
+ 2252      5341525F 
+ 2252      5365715F 
+ 2252      315F636F 
+ 2252      756E7473 
+ 2253              	.LASF52:
+ 2254 0112 75566F6C 		.ascii	"uVolts\000"
+ 2254      747300
+ 2255              	.LASF56:
+ 2256 0119 4144435F 		.ascii	"ADC_SAR_Seq_1_initVar\000"
+ 2256      5341525F 
+ 2256      5365715F 
+ 2256      315F696E 
+ 2256      69745661 
+ 2257              	.LASF18:
+ 2258 012f 63686172 		.ascii	"char\000"
+ 2258      00
+ 2259              	.LASF29:
+ 2260 0134 73746174 		.ascii	"status\000"
+ 2260      757300
+ 2261              	.LASF51:
+ 2262 013b 4144435F 		.ascii	"ADC_SAR_Seq_1_CountsTo_uVolts\000"
+ 2262      5341525F 
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 57
 
 
- 2259      315F696E 
- 2259      69745661 
- 2260              	.LASF18:
- 2261 0170 63686172 		.ascii	"char\000"
- 2261      00
- 2262              	.LASF29:
- 2263 0175 73746174 		.ascii	"status\000"
- 2263      757300
- 2264              	.LASF51:
- 2265 017c 4144435F 		.ascii	"ADC_SAR_Seq_1_CountsTo_uVolts\000"
- 2265      5341525F 
- 2265      5365715F 
- 2265      315F436F 
- 2265      756E7473 
- 2266              	.LASF14:
- 2267 019a 666C6F61 		.ascii	"float32\000"
- 2267      74333200 
- 2268              	.LASF60:
- 2269 01a2 47656E65 		.ascii	"Generated_Source\\PSoC4\\ADC_SAR_Seq_1.c\000"
- 2269      72617465 
- 2269      645F536F 
- 2269      75726365 
- 2269      5C50536F 
- 2270              	.LASF22:
- 2271 01c9 746D7052 		.ascii	"tmpRegVal\000"
- 2271      65675661 
- 2271      6C00
- 2272              	.LASF1:
- 2273 01d3 756E7369 		.ascii	"unsigned char\000"
- 2273      676E6564 
- 2273      20636861 
- 2273      7200
- 2274              	.LASF26:
- 2275 01e1 4144435F 		.ascii	"ADC_SAR_Seq_1_Stop\000"
+ 2262      5365715F 
+ 2262      315F436F 
+ 2262      756E7473 
+ 2263              	.LASF14:
+ 2264 0159 666C6F61 		.ascii	"float32\000"
+ 2264      74333200 
+ 2265              	.LASF61:
+ 2266 0161 433A5C55 		.ascii	"C:\\Users\\Jerry\\Documents\\GitHub\\sandbox\\renss"
+ 2266      73657273 
+ 2266      5C4A6572 
+ 2266      72795C44 
+ 2266      6F63756D 
+ 2267 018e 656C6165 		.ascii	"elaer-motorsports\\PSoC_timer\\Design01.cydsn\000"
+ 2267      722D6D6F 
+ 2267      746F7273 
+ 2267      706F7274 
+ 2267      735C5053 
+ 2268              	.LASF22:
+ 2269 01ba 746D7052 		.ascii	"tmpRegVal\000"
+ 2269      65675661 
+ 2269      6C00
+ 2270              	.LASF1:
+ 2271 01c4 756E7369 		.ascii	"unsigned char\000"
+ 2271      676E6564 
+ 2271      20636861 
+ 2271      7200
+ 2272              	.LASF26:
+ 2273 01d2 4144435F 		.ascii	"ADC_SAR_Seq_1_Stop\000"
+ 2273      5341525F 
+ 2273      5365715F 
+ 2273      315F5374 
+ 2273      6F7000
+ 2274              	.LASF40:
+ 2275 01e5 4144435F 		.ascii	"ADC_SAR_Seq_1_SetHighLimit\000"
  2275      5341525F 
  2275      5365715F 
- 2275      315F5374 
- 2275      6F7000
- 2276              	.LASF40:
- 2277 01f4 4144435F 		.ascii	"ADC_SAR_Seq_1_SetHighLimit\000"
- 2277      5341525F 
- 2277      5365715F 
- 2277      315F5365 
- 2277      74486967 
- 2278              	.LASF12:
- 2279 020f 696E7431 		.ascii	"int16\000"
- 2279      3600
- 2280              	.LASF5:
- 2281 0215 6C6F6E67 		.ascii	"long unsigned int\000"
- 2281      20756E73 
- 2281      69676E65 
- 2281      6420696E 
- 2281      7400
- 2282              	.LASF13:
- 2283 0227 696E7433 		.ascii	"int32\000"
- 2283      3200
- 2284              	.LASF25:
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 58
+ 2275      315F5365 
+ 2275      74486967 
+ 2276              	.LASF12:
+ 2277 0200 696E7431 		.ascii	"int16\000"
+ 2277      3600
+ 2278              	.LASF5:
+ 2279 0206 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2279      20756E73 
+ 2279      69676E65 
+ 2279      6420696E 
+ 2279      7400
+ 2280              	.LASF13:
+ 2281 0218 696E7433 		.ascii	"int32\000"
+ 2281      3200
+ 2282              	.LASF25:
+ 2283 021e 4144435F 		.ascii	"ADC_SAR_Seq_1_Enable\000"
+ 2283      5341525F 
+ 2283      5365715F 
+ 2283      315F456E 
+ 2283      61626C65 
+ 2284              	.LASF55:
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 58
 
 
- 2285 022d 4144435F 		.ascii	"ADC_SAR_Seq_1_Enable\000"
+ 2285 0233 4144435F 		.ascii	"ADC_SAR_Seq_1_channelsConfig\000"
  2285      5341525F 
  2285      5365715F 
- 2285      315F456E 
- 2285      61626C65 
- 2286              	.LASF55:
- 2287 0242 4144435F 		.ascii	"ADC_SAR_Seq_1_channelsConfig\000"
+ 2285      315F6368 
+ 2285      616E6E65 
+ 2286              	.LASF24:
+ 2287 0250 4144435F 		.ascii	"ADC_SAR_Seq_1_Start\000"
  2287      5341525F 
  2287      5365715F 
- 2287      315F6368 
- 2287      616E6E65 
- 2288              	.LASF24:
- 2289 025f 4144435F 		.ascii	"ADC_SAR_Seq_1_Start\000"
- 2289      5341525F 
- 2289      5365715F 
- 2289      315F5374 
- 2289      61727400 
- 2290              	.LASF16:
- 2291 0273 646F7562 		.ascii	"double\000"
- 2291      6C6500
- 2292              	.LASF53:
- 2293 027a 4144435F 		.ascii	"ADC_SAR_Seq_1_CountsTo_Volts\000"
+ 2287      315F5374 
+ 2287      61727400 
+ 2288              	.LASF16:
+ 2289 0264 646F7562 		.ascii	"double\000"
+ 2289      6C6500
+ 2290              	.LASF53:
+ 2291 026b 4144435F 		.ascii	"ADC_SAR_Seq_1_CountsTo_Volts\000"
+ 2291      5341525F 
+ 2291      5365715F 
+ 2291      315F436F 
+ 2291      756E7473 
+ 2292              	.LASF46:
+ 2293 0288 4144435F 		.ascii	"ADC_SAR_Seq_1_SetGain\000"
  2293      5341525F 
  2293      5365715F 
- 2293      315F436F 
- 2293      756E7473 
- 2294              	.LASF46:
- 2295 0297 4144435F 		.ascii	"ADC_SAR_Seq_1_SetGain\000"
- 2295      5341525F 
- 2295      5365715F 
- 2295      315F5365 
- 2295      74476169 
- 2296              	.LASF39:
- 2297 02ad 6C6F774C 		.ascii	"lowLimit\000"
- 2297      696D6974 
- 2297      00
- 2298              	.LASF47:
- 2299 02b6 61646347 		.ascii	"adcGain\000"
- 2299      61696E00 
- 2300              	.LASF10:
- 2301 02be 75696E74 		.ascii	"uint16\000"
- 2301      313600
- 2302              	.LASF49:
- 2303 02c5 61646343 		.ascii	"adcCounts\000"
- 2303      6F756E74 
- 2303      7300
- 2304              	.LASF11:
- 2305 02cf 75696E74 		.ascii	"uint32\000"
- 2305      333200
- 2306              	.LASF43:
- 2307 02d6 4144435F 		.ascii	"ADC_SAR_Seq_1_SetSatMask\000"
- 2307      5341525F 
- 2307      5365715F 
- 2307      315F5365 
- 2307      74536174 
- 2308              	.LASF8:
- 2309 02ef 756E7369 		.ascii	"unsigned int\000"
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 59
+ 2293      315F5365 
+ 2293      74476169 
+ 2294              	.LASF39:
+ 2295 029e 6C6F774C 		.ascii	"lowLimit\000"
+ 2295      696D6974 
+ 2295      00
+ 2296              	.LASF47:
+ 2297 02a7 61646347 		.ascii	"adcGain\000"
+ 2297      61696E00 
+ 2298              	.LASF10:
+ 2299 02af 75696E74 		.ascii	"uint16\000"
+ 2299      313600
+ 2300              	.LASF49:
+ 2301 02b6 61646343 		.ascii	"adcCounts\000"
+ 2301      6F756E74 
+ 2301      7300
+ 2302              	.LASF11:
+ 2303 02c0 75696E74 		.ascii	"uint32\000"
+ 2303      333200
+ 2304              	.LASF43:
+ 2305 02c7 4144435F 		.ascii	"ADC_SAR_Seq_1_SetSatMask\000"
+ 2305      5341525F 
+ 2305      5365715F 
+ 2305      315F5365 
+ 2305      74536174 
+ 2306              	.LASF8:
+ 2307 02e0 756E7369 		.ascii	"unsigned int\000"
+ 2307      676E6564 
+ 2307      20696E74 
+ 2307      00
+ 2308              	.LASF27:
+ 2309 02ed 4144435F 		.ascii	"ADC_SAR_Seq_1_StartConvert\000"
+ 2309      5341525F 
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 59
 
 
- 2309      676E6564 
- 2309      20696E74 
- 2309      00
- 2310              	.LASF27:
- 2311 02fc 4144435F 		.ascii	"ADC_SAR_Seq_1_StartConvert\000"
- 2311      5341525F 
- 2311      5365715F 
- 2311      315F5374 
- 2311      61727443 
- 2312              	.LASF23:
- 2313 0317 636F756E 		.ascii	"counts\000"
- 2313      747300
- 2314              	.LASF7:
- 2315 031e 6C6F6E67 		.ascii	"long long unsigned int\000"
- 2315      206C6F6E 
- 2315      6720756E 
- 2315      7369676E 
- 2315      65642069 
- 2316              	.LASF44:
- 2317 0335 4144435F 		.ascii	"ADC_SAR_Seq_1_SetOffset\000"
+ 2309      5365715F 
+ 2309      315F5374 
+ 2309      61727443 
+ 2310              	.LASF23:
+ 2311 0308 636F756E 		.ascii	"counts\000"
+ 2311      747300
+ 2312              	.LASF7:
+ 2313 030f 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2313      206C6F6E 
+ 2313      6720756E 
+ 2313      7369676E 
+ 2313      65642069 
+ 2314              	.LASF44:
+ 2315 0326 4144435F 		.ascii	"ADC_SAR_Seq_1_SetOffset\000"
+ 2315      5341525F 
+ 2315      5365715F 
+ 2315      315F5365 
+ 2315      744F6666 
+ 2316              	.LASF36:
+ 2317 033e 4144435F 		.ascii	"ADC_SAR_Seq_1_SetChanMask\000"
  2317      5341525F 
  2317      5365715F 
  2317      315F5365 
- 2317      744F6666 
- 2318              	.LASF36:
- 2319 034d 4144435F 		.ascii	"ADC_SAR_Seq_1_SetChanMask\000"
- 2319      5341525F 
- 2319      5365715F 
- 2319      315F5365 
- 2319      74436861 
- 2320              	.LASF54:
- 2321 0367 766F6C74 		.ascii	"volts\000"
- 2321      7300
- 2322              	.LASF33:
- 2323 036d 6368616E 		.ascii	"chan\000"
- 2323      00
- 2324              	.LASF50:
- 2325 0372 6D566F6C 		.ascii	"mVolts\000"
- 2325      747300
- 2326              	.LASF20:
- 2327 0379 73697A65 		.ascii	"sizetype\000"
- 2327      74797065 
- 2327      00
- 2328              	.LASF6:
- 2329 0382 6C6F6E67 		.ascii	"long long int\000"
- 2329      206C6F6E 
- 2329      6720696E 
- 2329      7400
- 2330              	.LASF37:
- 2331 0390 6D61736B 		.ascii	"mask\000"
- 2331      00
- 2332              	.LASF21:
- 2333 0395 63684E75 		.ascii	"chNum\000"
- 2333      6D00
+ 2317      74436861 
+ 2318              	.LASF54:
+ 2319 0358 766F6C74 		.ascii	"volts\000"
+ 2319      7300
+ 2320              	.LASF33:
+ 2321 035e 6368616E 		.ascii	"chan\000"
+ 2321      00
+ 2322              	.LASF50:
+ 2323 0363 6D566F6C 		.ascii	"mVolts\000"
+ 2323      747300
+ 2324              	.LASF20:
+ 2325 036a 73697A65 		.ascii	"sizetype\000"
+ 2325      74797065 
+ 2325      00
+ 2326              	.LASF6:
+ 2327 0373 6C6F6E67 		.ascii	"long long int\000"
+ 2327      206C6F6E 
+ 2327      6720696E 
+ 2327      7400
+ 2328              	.LASF37:
+ 2329 0381 6D61736B 		.ascii	"mask\000"
+ 2329      00
+ 2330              	.LASF21:
+ 2331 0386 63684E75 		.ascii	"chNum\000"
+ 2331      6D00
+ 2332              	.LASF60:
+ 2333 038c 47656E65 		.ascii	"Generated_Source\\PSoC4\\ADC_SAR_Seq_1.c\000"
+ 2333      72617465 
+ 2333      645F536F 
+ 2333      75726365 
+ 2333      5C50536F 
  2334              	.LASF48:
- 2335 039b 4144435F 		.ascii	"ADC_SAR_Seq_1_CountsTo_mVolts\000"
+ 2335 03b3 4144435F 		.ascii	"ADC_SAR_Seq_1_CountsTo_mVolts\000"
  2335      5341525F 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 60
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 60
 
 
  2335      5365715F 
  2335      315F436F 
  2335      756E7473 
  2336              	.LASF32:
- 2337 03b9 7265744D 		.ascii	"retMode\000"
+ 2337 03d1 7265744D 		.ascii	"retMode\000"
  2337      6F646500 
  2338              	.LASF2:
- 2339 03c1 73686F72 		.ascii	"short int\000"
+ 2339 03d9 73686F72 		.ascii	"short int\000"
  2339      7420696E 
  2339      7400
  2340              	.LASF9:
- 2341 03cb 75696E74 		.ascii	"uint8\000"
+ 2341 03e3 75696E74 		.ascii	"uint8\000"
  2341      3800
  2342              	.LASF42:
- 2343 03d1 4144435F 		.ascii	"ADC_SAR_Seq_1_SetLimitMask\000"
+ 2343 03e9 4144435F 		.ascii	"ADC_SAR_Seq_1_SetLimitMask\000"
  2343      5341525F 
  2343      5365715F 
  2343      315F5365 
  2343      744C696D 
  2344              	.LASF4:
- 2345 03ec 6C6F6E67 		.ascii	"long int\000"
+ 2345 0404 6C6F6E67 		.ascii	"long int\000"
  2345      20696E74 
  2345      00
  2346              	.LASF30:
- 2347 03f5 4144435F 		.ascii	"ADC_SAR_Seq_1_IsEndConversion\000"
+ 2347 040d 4144435F 		.ascii	"ADC_SAR_Seq_1_IsEndConversion\000"
  2347      5341525F 
  2347      5365715F 
  2347      315F4973 
  2347      456E6443 
  2348              	.LASF0:
- 2349 0413 7369676E 		.ascii	"signed char\000"
+ 2349 042b 7369676E 		.ascii	"signed char\000"
  2349      65642063 
  2349      68617200 
  2350              	.LASF3:
- 2351 041f 73686F72 		.ascii	"short unsigned int\000"
+ 2351 0437 73686F72 		.ascii	"short unsigned int\000"
  2351      7420756E 
  2351      7369676E 
  2351      65642069 
  2351      6E7400
  2352              	.LASF34:
- 2353 0432 72657375 		.ascii	"result\000"
+ 2353 044a 72657375 		.ascii	"result\000"
  2353      6C7400
  2354              	.LASF17:
- 2355 0439 696E7436 		.ascii	"int64\000"
+ 2355 0451 696E7436 		.ascii	"int64\000"
  2355      3400
  2356              	.LASF35:
- 2357 043f 4144435F 		.ascii	"ADC_SAR_Seq_1_Init\000"
+ 2357 0457 4144435F 		.ascii	"ADC_SAR_Seq_1_Init\000"
  2357      5341525F 
  2357      5365715F 
  2357      315F496E 
  2357      697400
  2358              	.LASF31:
- 2359 0452 4144435F 		.ascii	"ADC_SAR_Seq_1_GetResult16\000"
+ 2359 046a 4144435F 		.ascii	"ADC_SAR_Seq_1_GetResult16\000"
  2359      5341525F 
  2359      5365715F 
  2359      315F4765 
  2359      74526573 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccDCrwt4.s 			page 61
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccw0Et5A.s 			page 61
 
 
  2360              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.9.3 20150303 (release) [ARM/embedded-4_9-br

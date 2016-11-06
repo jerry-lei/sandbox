@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
   23:Generated_Source\PSoC4/SCB_1_PM.c ****     #include "SCB_1_I2C_PVT.h"
   24:Generated_Source\PSoC4/SCB_1_PM.c **** #endif /* (SCB_1_SCB_MODE_I2C_INC) */
   25:Generated_Source\PSoC4/SCB_1_PM.c **** 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 2
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 2
 
 
   26:Generated_Source\PSoC4/SCB_1_PM.c **** #if(SCB_1_SCB_MODE_EZI2C_INC)
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
   38              		.cfi_offset 14, -4
   39 0002 00AF     		add	r7, sp, #0
   40              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 3
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 3
 
 
   75:Generated_Source\PSoC4/SCB_1_PM.c **** #if(SCB_1_SCB_MODE_UNCONFIG_CONST_CFG)
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
   41              		.loc 1 128 0
   42 0004 074B     		ldr	r3, .L3
   43 0006 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 4
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 4
 
 
   44 0008 DB0F     		lsr	r3, r3, #31
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  150:Generated_Source\PSoC4/SCB_1_PM.c **** *  - Unchecked: enables the component if it was enabled before enter Deep Sleep.
  151:Generated_Source\PSoC4/SCB_1_PM.c **** *
  152:Generated_Source\PSoC4/SCB_1_PM.c **** *  This function should not be called after exiting Sleep.
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 5
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 5
 
 
  153:Generated_Source\PSoC4/SCB_1_PM.c **** *
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  199:Generated_Source\PSoC4/SCB_1_PM.c ****         SCB_1_I2CRestoreConfig();
  200:Generated_Source\PSoC4/SCB_1_PM.c **** 
  201:Generated_Source\PSoC4/SCB_1_PM.c ****     #elif (SCB_1_SCB_MODE_EZI2C_CONST_CFG && SCB_1_EZI2C_WAKE_ENABLE_CONST)
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 6
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 6
 
 
  202:Generated_Source\PSoC4/SCB_1_PM.c ****         SCB_1_EzI2CRestoreConfig();
@@ -350,40 +350,40 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  112 0006 00000000 		.4byte	.Ldebug_abbrev0
  113 000a 04       		.byte	0x4
  114 000b 01       		.uleb128 0x1
- 115 000c 8B000000 		.4byte	.LASF19
+ 115 000c E4000000 		.4byte	.LASF19
  116 0010 01       		.byte	0x1
- 117 0011 C7010000 		.4byte	.LASF20
- 118 0015 41010000 		.4byte	.LASF21
+ 117 0011 DF010000 		.4byte	.LASF20
+ 118 0015 3B000000 		.4byte	.LASF21
  119 0019 00000000 		.4byte	.Ldebug_ranges0+0
  120 001d 00000000 		.4byte	0
  121 0021 00000000 		.4byte	.Ldebug_line0
  122 0025 02       		.uleb128 0x2
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 7
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 7
 
 
  123 0026 01       		.byte	0x1
  124 0027 06       		.byte	0x6
- 125 0028 A2010000 		.4byte	.LASF0
+ 125 0028 BA010000 		.4byte	.LASF0
  126 002c 02       		.uleb128 0x2
  127 002d 01       		.byte	0x1
  128 002e 08       		.byte	0x8
- 129 002f 19010000 		.4byte	.LASF1
+ 129 002f 72010000 		.4byte	.LASF1
  130 0033 02       		.uleb128 0x2
  131 0034 02       		.byte	0x2
  132 0035 05       		.byte	0x5
- 133 0036 B4010000 		.4byte	.LASF2
+ 133 0036 CC010000 		.4byte	.LASF2
  134 003a 02       		.uleb128 0x2
  135 003b 02       		.byte	0x2
  136 003c 07       		.byte	0x7
- 137 003d 8F010000 		.4byte	.LASF3
+ 137 003d A7010000 		.4byte	.LASF3
  138 0041 02       		.uleb128 0x2
  139 0042 04       		.byte	0x4
  140 0043 05       		.byte	0x5
- 141 0044 38010000 		.4byte	.LASF4
+ 141 0044 91010000 		.4byte	.LASF4
  142 0048 02       		.uleb128 0x2
  143 0049 04       		.byte	0x4
  144 004a 07       		.byte	0x7
- 145 004b 41000000 		.4byte	.LASF5
+ 145 004b 9A000000 		.4byte	.LASF5
  146 004f 02       		.uleb128 0x2
  147 0050 08       		.byte	0x8
  148 0051 05       		.byte	0x5
@@ -391,7 +391,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  150 0056 02       		.uleb128 0x2
  151 0057 08       		.byte	0x8
  152 0058 07       		.byte	0x7
- 153 0059 53000000 		.4byte	.LASF7
+ 153 0059 AC000000 		.4byte	.LASF7
  154 005d 03       		.uleb128 0x3
  155 005e 04       		.byte	0x4
  156 005f 05       		.byte	0x5
@@ -401,7 +401,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  160 0066 07       		.byte	0x7
  161 0067 21000000 		.4byte	.LASF8
  162 006b 04       		.uleb128 0x4
- 163 006c 3B000000 		.4byte	.LASF9
+ 163 006c 94000000 		.4byte	.LASF9
  164 0070 02       		.byte	0x2
  165 0071 B901     		.2byte	0x1b9
  166 0073 2C000000 		.4byte	0x2c
@@ -413,20 +413,20 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  172 0083 02       		.uleb128 0x2
  173 0084 04       		.byte	0x4
  174 0085 04       		.byte	0x4
- 175 0086 AE010000 		.4byte	.LASF11
+ 175 0086 C6010000 		.4byte	.LASF11
  176 008a 02       		.uleb128 0x2
  177 008b 08       		.byte	0x8
  178 008c 04       		.byte	0x4
- 179 008d 82010000 		.4byte	.LASF12
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 8
+ 179 008d 9A010000 		.4byte	.LASF12
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 8
 
 
  180 0091 02       		.uleb128 0x2
  181 0092 01       		.byte	0x1
  182 0093 08       		.byte	0x8
- 183 0094 27010000 		.4byte	.LASF13
+ 183 0094 80010000 		.4byte	.LASF13
  184 0098 04       		.uleb128 0x4
- 185 0099 89010000 		.4byte	.LASF14
+ 185 0099 A1010000 		.4byte	.LASF14
  186 009d 02       		.byte	0x2
  187 009e 6502     		.2byte	0x265
  188 00a0 A4000000 		.4byte	0xa4
@@ -435,7 +435,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  191 00a9 02       		.uleb128 0x2
  192 00aa 04       		.byte	0x4
  193 00ab 07       		.byte	0x7
- 194 00ac BE010000 		.4byte	.LASF15
+ 194 00ac D6010000 		.4byte	.LASF15
  195 00b0 06       		.uleb128 0x6
  196 00b1 01       		.byte	0x1
  197 00b2 03       		.byte	0x3
@@ -449,12 +449,12 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  205 00c3 00       		.byte	0
  206 00c4 00       		.byte	0
  207 00c5 08       		.uleb128 0x8
- 208 00c6 6A000000 		.4byte	.LASF16
+ 208 00c6 C3000000 		.4byte	.LASF16
  209 00ca 03       		.byte	0x3
  210 00cb 5F       		.byte	0x5f
  211 00cc B0000000 		.4byte	0xb0
  212 00d0 09       		.uleb128 0x9
- 213 00d1 2C010000 		.4byte	.LASF17
+ 213 00d1 85010000 		.4byte	.LASF17
  214 00d5 01       		.byte	0x1
  215 00d6 49       		.byte	0x49
  216 00d7 00000000 		.4byte	.LFB2
@@ -462,7 +462,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  218 00df 01       		.uleb128 0x1
  219 00e0 9C       		.byte	0x9c
  220 00e1 09       		.uleb128 0x9
- 221 00e2 7E000000 		.4byte	.LASF18
+ 221 00e2 D7000000 		.4byte	.LASF18
  222 00e6 01       		.byte	0x1
  223 00e7 9F       		.byte	0x9f
  224 00e8 00000000 		.4byte	.LFB3
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  234 00fe 03       		.byte	0x3
  235 00ff 00000000 		.4byte	SCB_1_backup
  236 0103 00       		.byte	0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 9
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 9
 
 
  237              		.section	.debug_abbrev,"",%progbits
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  291 0034 00       		.byte	0
  292 0035 00       		.byte	0
  293 0036 05       		.uleb128 0x5
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 10
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 10
 
 
  294 0037 35       		.uleb128 0x35
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  348 006d 3A       		.uleb128 0x3a
  349 006e 0B       		.uleb128 0xb
  350 006f 3B       		.uleb128 0x3b
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 11
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 11
 
 
  351 0070 0B       		.uleb128 0xb
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  405              	.Ldebug_line0:
  406 0000 81000000 		.section	.debug_str,"MS",%progbits,1
  406      02005000 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 12
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 12
 
 
  406      00000201 
@@ -686,110 +686,110 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 1
  416      315F6261 
  416      636B7570 
  416      00
- 417              	.LASF9:
- 418 003b 75696E74 		.ascii	"uint8\000"
- 418      3800
- 419              	.LASF5:
- 420 0041 6C6F6E67 		.ascii	"long unsigned int\000"
- 420      20756E73 
- 420      69676E65 
- 420      6420696E 
- 420      7400
- 421              	.LASF7:
- 422 0053 6C6F6E67 		.ascii	"long long unsigned int\000"
- 422      206C6F6E 
- 422      6720756E 
- 422      7369676E 
- 422      65642069 
- 423              	.LASF16:
- 424 006a 5343425F 		.ascii	"SCB_1_BACKUP_STRUCT\000"
- 424      315F4241 
- 424      434B5550 
- 424      5F535452 
- 424      55435400 
- 425              	.LASF18:
- 426 007e 5343425F 		.ascii	"SCB_1_Wakeup\000"
- 426      315F5761 
- 426      6B657570 
- 426      00
- 427              	.LASF19:
- 428 008b 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 428      4320342E 
- 428      392E3320 
- 428      32303135 
- 428      30333033 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 13
+ 417              	.LASF21:
+ 418 003b 433A5C55 		.ascii	"C:\\Users\\Jerry\\Documents\\GitHub\\sandbox\\renss"
+ 418      73657273 
+ 418      5C4A6572 
+ 418      72795C44 
+ 418      6F63756D 
+ 419 0068 656C6165 		.ascii	"elaer-motorsports\\PSoC_timer\\Design01.cydsn\000"
+ 419      722D6D6F 
+ 419      746F7273 
+ 419      706F7274 
+ 419      735C5053 
+ 420              	.LASF9:
+ 421 0094 75696E74 		.ascii	"uint8\000"
+ 421      3800
+ 422              	.LASF5:
+ 423 009a 6C6F6E67 		.ascii	"long unsigned int\000"
+ 423      20756E73 
+ 423      69676E65 
+ 423      6420696E 
+ 423      7400
+ 424              	.LASF7:
+ 425 00ac 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 425      206C6F6E 
+ 425      6720756E 
+ 425      7369676E 
+ 425      65642069 
+ 426              	.LASF16:
+ 427 00c3 5343425F 		.ascii	"SCB_1_BACKUP_STRUCT\000"
+ 427      315F4241 
+ 427      434B5550 
+ 427      5F535452 
+ 427      55435400 
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 13
 
 
- 429 00be 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 429      20726576 
- 429      6973696F 
- 429      6E203232 
- 429      31323230 
- 430 00f1 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 430      66756E63 
- 430      74696F6E 
- 430      2D736563 
- 430      74696F6E 
- 431              	.LASF1:
- 432 0119 756E7369 		.ascii	"unsigned char\000"
- 432      676E6564 
- 432      20636861 
- 432      7200
- 433              	.LASF13:
- 434 0127 63686172 		.ascii	"char\000"
- 434      00
- 435              	.LASF17:
- 436 012c 5343425F 		.ascii	"SCB_1_Sleep\000"
- 436      315F536C 
- 436      65657000 
- 437              	.LASF4:
- 438 0138 6C6F6E67 		.ascii	"long int\000"
- 438      20696E74 
- 438      00
- 439              	.LASF21:
- 440 0141 433A5C55 		.ascii	"C:\\Users\\Jerry\\Documents\\PSoC Creator\\Workspac"
- 440      73657273 
- 440      5C4A6572 
- 440      72795C44 
- 440      6F63756D 
- 441 016f 6530315C 		.ascii	"e01\\Design01.cydsn\000"
- 441      44657369 
- 441      676E3031 
- 441      2E637964 
- 441      736E00
+ 428              	.LASF18:
+ 429 00d7 5343425F 		.ascii	"SCB_1_Wakeup\000"
+ 429      315F5761 
+ 429      6B657570 
+ 429      00
+ 430              	.LASF19:
+ 431 00e4 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 431      4320342E 
+ 431      392E3320 
+ 431      32303135 
+ 431      30333033 
+ 432 0117 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 432      20726576 
+ 432      6973696F 
+ 432      6E203232 
+ 432      31323230 
+ 433 014a 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 433      66756E63 
+ 433      74696F6E 
+ 433      2D736563 
+ 433      74696F6E 
+ 434              	.LASF1:
+ 435 0172 756E7369 		.ascii	"unsigned char\000"
+ 435      676E6564 
+ 435      20636861 
+ 435      7200
+ 436              	.LASF13:
+ 437 0180 63686172 		.ascii	"char\000"
+ 437      00
+ 438              	.LASF17:
+ 439 0185 5343425F 		.ascii	"SCB_1_Sleep\000"
+ 439      315F536C 
+ 439      65657000 
+ 440              	.LASF4:
+ 441 0191 6C6F6E67 		.ascii	"long int\000"
+ 441      20696E74 
+ 441      00
  442              	.LASF12:
- 443 0182 646F7562 		.ascii	"double\000"
+ 443 019a 646F7562 		.ascii	"double\000"
  443      6C6500
  444              	.LASF14:
- 445 0189 72656733 		.ascii	"reg32\000"
+ 445 01a1 72656733 		.ascii	"reg32\000"
  445      3200
  446              	.LASF3:
- 447 018f 73686F72 		.ascii	"short unsigned int\000"
+ 447 01a7 73686F72 		.ascii	"short unsigned int\000"
  447      7420756E 
  447      7369676E 
  447      65642069 
  447      6E7400
  448              	.LASF0:
- 449 01a2 7369676E 		.ascii	"signed char\000"
+ 449 01ba 7369676E 		.ascii	"signed char\000"
  449      65642063 
  449      68617200 
  450              	.LASF11:
- 451 01ae 666C6F61 		.ascii	"float\000"
+ 451 01c6 666C6F61 		.ascii	"float\000"
  451      7400
  452              	.LASF2:
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\cccY74n0.s 			page 14
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccvfJA7F.s 			page 14
 
 
- 453 01b4 73686F72 		.ascii	"short int\000"
+ 453 01cc 73686F72 		.ascii	"short int\000"
  453      7420696E 
  453      7400
  454              	.LASF15:
- 455 01be 73697A65 		.ascii	"sizetype\000"
+ 455 01d6 73697A65 		.ascii	"sizetype\000"
  455      74797065 
  455      00
  456              	.LASF20:
- 457 01c7 47656E65 		.ascii	"Generated_Source\\PSoC4\\SCB_1_PM.c\000"
+ 457 01df 47656E65 		.ascii	"Generated_Source\\PSoC4\\SCB_1_PM.c\000"
  457      72617465 
  457      645F536F 
  457      75726365 

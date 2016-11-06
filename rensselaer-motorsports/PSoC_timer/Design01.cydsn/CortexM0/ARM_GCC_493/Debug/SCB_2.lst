@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
   18:Generated_Source\PSoC4/SCB_2.c **** #include "SCB_2_PVT.h"
   19:Generated_Source\PSoC4/SCB_2.c **** 
   20:Generated_Source\PSoC4/SCB_2.c **** #if (SCB_2_SCB_MODE_I2C_INC)
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 2
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 2
 
 
   21:Generated_Source\PSoC4/SCB_2.c ****     #include "SCB_2_I2C_PVT.h"
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
   75:Generated_Source\PSoC4/SCB_2.c **** *  call to the SCB_2_Start() routine.
   76:Generated_Source\PSoC4/SCB_2.c **** *
   77:Generated_Source\PSoC4/SCB_2.c **** *  If re-initialization of the component is required, then the 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 3
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 3
 
 
   78:Generated_Source\PSoC4/SCB_2.c **** *  SCB_2_Init() function can be called before the 
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
   45              		.cfi_def_cfa_register 7
  125:Generated_Source\PSoC4/SCB_2.c **** #if (SCB_2_SCB_MODE_UNCONFIG_CONST_CFG)
  126:Generated_Source\PSoC4/SCB_2.c ****     if (SCB_2_SCB_MODE_UNCONFIG_RUNTM_CFG)
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 4
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 4
 
 
  127:Generated_Source\PSoC4/SCB_2.c ****     {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  164:Generated_Source\PSoC4/SCB_2.c **** *  component.
  165:Generated_Source\PSoC4/SCB_2.c **** *  When configuration is set to “Unconfigured SCB_2”, the component 
  166:Generated_Source\PSoC4/SCB_2.c **** *  must first be initialized to operate in one of the following configurations: 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 5
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 5
 
 
  167:Generated_Source\PSoC4/SCB_2.c **** *  I2C, SPI, UART or EZ I2C, using the mode-specific initialization API. 
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
   91              		.cfi_endproc
   92              	.LFE3:
   93              		.size	SCB_2_Enable, .-SCB_2_Enable
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 6
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 6
 
 
   94              		.section	.text.SCB_2_Start,"ax",%progbits
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  122              		.loc 1 218 0
  123 0016 FFF7FEFF 		bl	SCB_2_Enable
  219:Generated_Source\PSoC4/SCB_2.c **** }
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 7
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 7
 
 
  124              		.loc 1 219 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  244:Generated_Source\PSoC4/SCB_2.c **** 
  245:Generated_Source\PSoC4/SCB_2.c ****     /* Call Stop function specific to current operation mode */
  246:Generated_Source\PSoC4/SCB_2.c ****     SCB_2_ScbModeStop();
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 8
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 8
 
 
  154              		.loc 1 246 0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  265:Generated_Source\PSoC4/SCB_2.c **** 
  266:Generated_Source\PSoC4/SCB_2.c **** 
  267:Generated_Source\PSoC4/SCB_2.c **** /*******************************************************************************
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 9
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 9
 
 
  268:Generated_Source\PSoC4/SCB_2.c **** * Function Name: SCB_2_SetRxFifoLevel
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  222 0028 BD46     		mov	sp, r7
  223 002a 04B0     		add	sp, sp, #16
  224              		@ sp needed
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 10
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 10
 
 
  225 002c 80BD     		pop	{r7, pc}
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  258 0010 0F22     		mov	r2, #15
  259 0012 9343     		bic	r3, r2
  260 0014 FB60     		str	r3, [r7, #12]
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 11
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 11
 
 
  311:Generated_Source\PSoC4/SCB_2.c ****     txFifoCtrl |= ((uint32) (SCB_2_TX_FIFO_CTRL_TRIGGER_LEVEL_MASK & level));
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  334:Generated_Source\PSoC4/SCB_2.c ****     *******************************************************************************/
  335:Generated_Source\PSoC4/SCB_2.c ****     void SCB_2_SetCustomInterruptHandler(void (*func)(void))
  336:Generated_Source\PSoC4/SCB_2.c ****     {
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 12
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 12
 
 
  292              		.loc 1 336 0
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  357:Generated_Source\PSoC4/SCB_2.c **** {
  326              		.loc 1 357 0
  327              		.cfi_startproc
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 13
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 13
 
 
  328 0000 80B5     		push	{r7, lr}
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  357 0002 00AF     		add	r7, sp, #0
  358              		.cfi_def_cfa_register 7
  383:Generated_Source\PSoC4/SCB_2.c **** #if (SCB_2_SCB_MODE_UNCONFIG_CONST_CFG)
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 14
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 14
 
 
  384:Generated_Source\PSoC4/SCB_2.c **** #if (!SCB_2_CY_SCBIP_V1)
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  377              		.cfi_offset 7, -8
  378              		.cfi_offset 14, -4
  379 0002 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 15
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 15
 
 
  380              		.cfi_def_cfa_register 7
@@ -898,50 +898,50 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  395 0000 E0010000 		.4byte	0x1e0
  396 0004 0400     		.2byte	0x4
  397 0006 00000000 		.4byte	.Ldebug_abbrev0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 16
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 16
 
 
  398 000a 04       		.byte	0x4
  399 000b 01       		.uleb128 0x1
- 400 000c 47000000 		.4byte	.LASF32
+ 400 000c 06000000 		.4byte	.LASF32
  401 0010 01       		.byte	0x1
- 402 0011 1E020000 		.4byte	.LASF33
- 403 0015 00000000 		.4byte	.LASF34
+ 402 0011 36020000 		.4byte	.LASF33
+ 403 0015 E4000000 		.4byte	.LASF34
  404 0019 00000000 		.4byte	.Ldebug_ranges0+0
  405 001d 00000000 		.4byte	0
  406 0021 00000000 		.4byte	.Ldebug_line0
  407 0025 02       		.uleb128 0x2
  408 0026 01       		.byte	0x1
  409 0027 06       		.byte	0x6
- 410 0028 92020000 		.4byte	.LASF0
+ 410 0028 AA020000 		.4byte	.LASF0
  411 002c 02       		.uleb128 0x2
  412 002d 01       		.byte	0x1
  413 002e 08       		.byte	0x8
- 414 002f 2B010000 		.4byte	.LASF1
+ 414 002f 43010000 		.4byte	.LASF1
  415 0033 02       		.uleb128 0x2
  416 0034 02       		.byte	0x2
  417 0035 05       		.byte	0x5
- 418 0036 14020000 		.4byte	.LASF2
+ 418 0036 2C020000 		.4byte	.LASF2
  419 003a 02       		.uleb128 0x2
  420 003b 02       		.byte	0x2
  421 003c 07       		.byte	0x7
- 422 003d E6000000 		.4byte	.LASF3
+ 422 003d A5000000 		.4byte	.LASF3
  423 0041 02       		.uleb128 0x2
  424 0042 04       		.byte	0x4
  425 0043 05       		.byte	0x5
- 426 0044 75020000 		.4byte	.LASF4
+ 426 0044 8D020000 		.4byte	.LASF4
  427 0048 02       		.uleb128 0x2
  428 0049 04       		.byte	0x4
  429 004a 07       		.byte	0x7
- 430 004b 39010000 		.4byte	.LASF5
+ 430 004b 51010000 		.4byte	.LASF5
  431 004f 02       		.uleb128 0x2
  432 0050 08       		.byte	0x8
  433 0051 05       		.byte	0x5
- 434 0052 DE010000 		.4byte	.LASF6
+ 434 0052 F6010000 		.4byte	.LASF6
  435 0056 02       		.uleb128 0x2
  436 0057 08       		.byte	0x8
  437 0058 07       		.byte	0x7
- 438 0059 A6010000 		.4byte	.LASF7
+ 438 0059 BE010000 		.4byte	.LASF7
  439 005d 03       		.uleb128 0x3
  440 005e 04       		.byte	0x4
  441 005f 05       		.byte	0x5
@@ -949,16 +949,16 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  443 0064 02       		.uleb128 0x2
  444 0065 04       		.byte	0x4
  445 0066 07       		.byte	0x7
- 446 0067 99010000 		.4byte	.LASF8
+ 446 0067 B1010000 		.4byte	.LASF8
  447 006b 04       		.uleb128 0x4
- 448 006c 4B010000 		.4byte	.LASF9
+ 448 006c 63010000 		.4byte	.LASF9
  449 0070 02       		.byte	0x2
  450 0071 B901     		.2byte	0x1b9
  451 0073 2C000000 		.4byte	0x2c
  452 0077 04       		.uleb128 0x4
- 453 0078 80010000 		.4byte	.LASF10
+ 453 0078 98010000 		.4byte	.LASF10
  454 007c 02       		.byte	0x2
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 17
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 17
 
 
  455 007d BB01     		.2byte	0x1bb
@@ -966,17 +966,17 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  457 0083 02       		.uleb128 0x2
  458 0084 04       		.byte	0x4
  459 0085 04       		.byte	0x4
- 460 0086 25010000 		.4byte	.LASF11
+ 460 0086 3D010000 		.4byte	.LASF11
  461 008a 02       		.uleb128 0x2
  462 008b 08       		.byte	0x8
  463 008c 04       		.byte	0x4
- 464 008d 51010000 		.4byte	.LASF12
+ 464 008d 69010000 		.4byte	.LASF12
  465 0091 02       		.uleb128 0x2
  466 0092 01       		.byte	0x1
  467 0093 08       		.byte	0x8
- 468 0094 F7010000 		.4byte	.LASF13
+ 468 0094 0F020000 		.4byte	.LASF13
  469 0098 04       		.uleb128 0x4
- 470 0099 41000000 		.4byte	.LASF14
+ 470 0099 00000000 		.4byte	.LASF14
  471 009d 02       		.byte	0x2
  472 009e 6502     		.2byte	0x265
  473 00a0 A4000000 		.4byte	0xa4
@@ -989,9 +989,9 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  480 00b0 02       		.uleb128 0x2
  481 00b1 04       		.byte	0x4
  482 00b2 07       		.byte	0x7
- 483 00b3 D5010000 		.4byte	.LASF15
+ 483 00b3 ED010000 		.4byte	.LASF15
  484 00b7 08       		.uleb128 0x8
- 485 00b8 EC010000 		.4byte	.LASF16
+ 485 00b8 04020000 		.4byte	.LASF16
  486 00bc 01       		.byte	0x1
  487 00bd 7B       		.byte	0x7b
  488 00be 00000000 		.4byte	.LFB2
@@ -999,7 +999,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  490 00c6 01       		.uleb128 0x1
  491 00c7 9C       		.byte	0x9c
  492 00c8 08       		.uleb128 0x8
- 493 00c9 3D020000 		.4byte	.LASF17
+ 493 00c9 55020000 		.4byte	.LASF17
  494 00cd 01       		.byte	0x1
  495 00ce AB       		.byte	0xab
  496 00cf 00000000 		.4byte	.LFB3
@@ -1007,7 +1007,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  498 00d7 01       		.uleb128 0x1
  499 00d8 9C       		.byte	0x9c
  500 00d9 08       		.uleb128 0x8
- 501 00da F9000000 		.4byte	.LASF18
+ 501 00da B8000000 		.4byte	.LASF18
  502 00de 01       		.byte	0x1
  503 00df D2       		.byte	0xd2
  504 00e0 00000000 		.4byte	.LFB4
@@ -1015,10 +1015,10 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  506 00e8 01       		.uleb128 0x1
  507 00e9 9C       		.byte	0x9c
  508 00ea 08       		.uleb128 0x8
- 509 00eb 1A010000 		.4byte	.LASF19
+ 509 00eb D9000000 		.4byte	.LASF19
  510 00ef 01       		.byte	0x1
  511 00f0 EF       		.byte	0xef
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 18
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 18
 
 
  512 00f1 00000000 		.4byte	.LFB5
@@ -1026,7 +1026,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  514 00f9 01       		.uleb128 0x1
  515 00fa 9C       		.byte	0x9c
  516 00fb 09       		.uleb128 0x9
- 517 00fc 05010000 		.4byte	.LASF20
+ 517 00fc C4000000 		.4byte	.LASF20
  518 0100 01       		.byte	0x1
  519 0101 1701     		.2byte	0x117
  520 0103 00000000 		.4byte	.LFB6
@@ -1035,7 +1035,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  523 010c 9C       		.byte	0x9c
  524 010d 30010000 		.4byte	0x130
  525 0111 0A       		.uleb128 0xa
- 526 0112 E0000000 		.4byte	.LASF22
+ 526 0112 9F000000 		.4byte	.LASF22
  527 0116 01       		.byte	0x1
  528 0117 1701     		.2byte	0x117
  529 0119 77000000 		.4byte	0x77
@@ -1043,7 +1043,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  531 011e 91       		.byte	0x91
  532 011f 6C       		.sleb128 -20
  533 0120 0B       		.uleb128 0xb
- 534 0121 6A020000 		.4byte	.LASF23
+ 534 0121 82020000 		.4byte	.LASF23
  535 0125 01       		.byte	0x1
  536 0126 1901     		.2byte	0x119
  537 0128 77000000 		.4byte	0x77
@@ -1052,7 +1052,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  540 012e 74       		.sleb128 -12
  541 012f 00       		.byte	0
  542 0130 09       		.uleb128 0x9
- 543 0131 6B010000 		.4byte	.LASF21
+ 543 0131 83010000 		.4byte	.LASF21
  544 0135 01       		.byte	0x1
  545 0136 3001     		.2byte	0x130
  546 0138 00000000 		.4byte	.LFB7
@@ -1061,7 +1061,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  549 0141 9C       		.byte	0x9c
  550 0142 65010000 		.4byte	0x165
  551 0146 0A       		.uleb128 0xa
- 552 0147 E0000000 		.4byte	.LASF22
+ 552 0147 9F000000 		.4byte	.LASF22
  553 014b 01       		.byte	0x1
  554 014c 3001     		.2byte	0x130
  555 014e 77000000 		.4byte	0x77
@@ -1069,7 +1069,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  557 0153 91       		.byte	0x91
  558 0154 6C       		.sleb128 -20
  559 0155 0B       		.uleb128 0xb
- 560 0156 D5000000 		.4byte	.LASF24
+ 560 0156 94000000 		.4byte	.LASF24
  561 015a 01       		.byte	0x1
  562 015b 3201     		.2byte	0x132
  563 015d 77000000 		.4byte	0x77
@@ -1078,10 +1078,10 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  566 0163 74       		.sleb128 -12
  567 0164 00       		.byte	0
  568 0165 09       		.uleb128 0x9
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 19
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 19
 
 
- 569 0166 4A020000 		.4byte	.LASF25
+ 569 0166 62020000 		.4byte	.LASF25
  570 016a 01       		.byte	0x1
  571 016b 4F01     		.2byte	0x14f
  572 016d 00000000 		.4byte	.LFB8
@@ -1090,7 +1090,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  575 0176 9C       		.byte	0x9c
  576 0177 8B010000 		.4byte	0x18b
  577 017b 0A       		.uleb128 0xa
- 578 017c 58010000 		.4byte	.LASF26
+ 578 017c 70010000 		.4byte	.LASF26
  579 0180 01       		.byte	0x1
  580 0181 4F01     		.2byte	0x14f
  581 0183 A9000000 		.4byte	0xa9
@@ -1099,7 +1099,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  584 0189 74       		.sleb128 -12
  585 018a 00       		.byte	0
  586 018b 0C       		.uleb128 0xc
- 587 018c 7E020000 		.4byte	.LASF27
+ 587 018c 96020000 		.4byte	.LASF27
  588 0190 01       		.byte	0x1
  589 0191 6401     		.2byte	0x164
  590 0193 00000000 		.4byte	.LFB9
@@ -1107,7 +1107,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  592 019b 01       		.uleb128 0x1
  593 019c 9C       		.byte	0x9c
  594 019d 0D       		.uleb128 0xd
- 595 019e BD010000 		.4byte	.LASF28
+ 595 019e D5010000 		.4byte	.LASF28
  596 01a2 01       		.byte	0x1
  597 01a3 7D01     		.2byte	0x17d
  598 01a5 00000000 		.4byte	.LFB10
@@ -1115,7 +1115,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  600 01ad 01       		.uleb128 0x1
  601 01ae 9C       		.byte	0x9c
  602 01af 0C       		.uleb128 0xc
- 603 01b0 87010000 		.4byte	.LASF29
+ 603 01b0 9F010000 		.4byte	.LASF29
  604 01b4 01       		.byte	0x1
  605 01b5 A201     		.2byte	0x1a2
  606 01b7 00000000 		.4byte	.LFB11
@@ -1123,7 +1123,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  608 01bf 01       		.uleb128 0x1
  609 01c0 9C       		.byte	0x9c
  610 01c1 0E       		.uleb128 0xe
- 611 01c2 5D010000 		.4byte	.LASF30
+ 611 01c2 75010000 		.4byte	.LASF30
  612 01c6 01       		.byte	0x1
  613 01c7 51       		.byte	0x51
  614 01c8 6B000000 		.4byte	0x6b
@@ -1131,14 +1131,14 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  616 01cd 03       		.byte	0x3
  617 01ce 00000000 		.4byte	SCB_2_initVar
  618 01d2 0E       		.uleb128 0xe
- 619 01d3 FC010000 		.4byte	.LASF31
+ 619 01d3 14020000 		.4byte	.LASF31
  620 01d7 01       		.byte	0x1
  621 01d8 61       		.byte	0x61
  622 01d9 A9000000 		.4byte	0xa9
  623 01dd 05       		.uleb128 0x5
  624 01de 03       		.byte	0x3
  625 01df 00000000 		.4byte	SCB_2_customIntrHandler
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 20
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 20
 
 
  626 01e3 00       		.byte	0
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  680 0033 13       		.uleb128 0x13
  681 0034 00       		.byte	0
  682 0035 00       		.byte	0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 21
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 21
 
 
  683 0036 05       		.uleb128 0x5
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  737 006d 0B       		.uleb128 0xb
  738 006e 3B       		.uleb128 0x3b
  739 006f 05       		.uleb128 0x5
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 22
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 22
 
 
  740 0070 27       		.uleb128 0x27
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  794 00a7 19       		.uleb128 0x19
  795 00a8 11       		.uleb128 0x11
  796 00a9 01       		.uleb128 0x1
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 23
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 23
 
 
  797 00aa 12       		.uleb128 0x12
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  851 000e 0000     		.2byte	0
  852 0010 00000000 		.4byte	.LFB2
  853 0014 0C000000 		.4byte	.LFE2-.LFB2
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 24
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 24
 
 
  854 0018 00000000 		.4byte	.LFB3
@@ -1432,193 +1432,193 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 1
  900      00000201 
  900      FB0E0D00 
  900      01010101 
- 901              	.LASF34:
- 902 0000 433A5C55 		.ascii	"C:\\Users\\Jerry\\Documents\\PSoC Creator\\Workspac"
- 902      73657273 
- 902      5C4A6572 
- 902      72795C44 
- 902      6F63756D 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 25
+ 901              	.LASF14:
+ 902 0000 72656733 		.ascii	"reg32\000"
+ 902      3200
+ 903              	.LASF32:
+ 904 0006 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 904      4320342E 
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 25
 
 
- 903 002e 6530315C 		.ascii	"e01\\Design01.cydsn\000"
- 903      44657369 
- 903      676E3031 
- 903      2E637964 
- 903      736E00
- 904              	.LASF14:
- 905 0041 72656733 		.ascii	"reg32\000"
- 905      3200
- 906              	.LASF32:
- 907 0047 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 907      4320342E 
- 907      392E3320 
- 907      32303135 
- 907      30333033 
- 908 007a 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 908      20726576 
- 908      6973696F 
- 908      6E203232 
- 908      31323230 
- 909 00ad 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 909      66756E63 
- 909      74696F6E 
- 909      2D736563 
- 909      74696F6E 
- 910              	.LASF24:
- 911 00d5 74784669 		.ascii	"txFifoCtrl\000"
- 911      666F4374 
- 911      726C00
- 912              	.LASF22:
- 913 00e0 6C657665 		.ascii	"level\000"
- 913      6C00
- 914              	.LASF3:
- 915 00e6 73686F72 		.ascii	"short unsigned int\000"
- 915      7420756E 
- 915      7369676E 
- 915      65642069 
- 915      6E7400
- 916              	.LASF18:
- 917 00f9 5343425F 		.ascii	"SCB_2_Start\000"
- 917      325F5374 
- 917      61727400 
- 918              	.LASF20:
- 919 0105 5343425F 		.ascii	"SCB_2_SetRxFifoLevel\000"
- 919      325F5365 
- 919      74527846 
- 919      69666F4C 
- 919      6576656C 
- 920              	.LASF19:
- 921 011a 5343425F 		.ascii	"SCB_2_Stop\000"
- 921      325F5374 
- 921      6F7000
+ 904      392E3320 
+ 904      32303135 
+ 904      30333033 
+ 905 0039 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 905      20726576 
+ 905      6973696F 
+ 905      6E203232 
+ 905      31323230 
+ 906 006c 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 906      66756E63 
+ 906      74696F6E 
+ 906      2D736563 
+ 906      74696F6E 
+ 907              	.LASF24:
+ 908 0094 74784669 		.ascii	"txFifoCtrl\000"
+ 908      666F4374 
+ 908      726C00
+ 909              	.LASF22:
+ 910 009f 6C657665 		.ascii	"level\000"
+ 910      6C00
+ 911              	.LASF3:
+ 912 00a5 73686F72 		.ascii	"short unsigned int\000"
+ 912      7420756E 
+ 912      7369676E 
+ 912      65642069 
+ 912      6E7400
+ 913              	.LASF18:
+ 914 00b8 5343425F 		.ascii	"SCB_2_Start\000"
+ 914      325F5374 
+ 914      61727400 
+ 915              	.LASF20:
+ 916 00c4 5343425F 		.ascii	"SCB_2_SetRxFifoLevel\000"
+ 916      325F5365 
+ 916      74527846 
+ 916      69666F4C 
+ 916      6576656C 
+ 917              	.LASF19:
+ 918 00d9 5343425F 		.ascii	"SCB_2_Stop\000"
+ 918      325F5374 
+ 918      6F7000
+ 919              	.LASF34:
+ 920 00e4 433A5C55 		.ascii	"C:\\Users\\Jerry\\Documents\\GitHub\\sandbox\\renss"
+ 920      73657273 
+ 920      5C4A6572 
+ 920      72795C44 
+ 920      6F63756D 
+ 921 0111 656C6165 		.ascii	"elaer-motorsports\\PSoC_timer\\Design01.cydsn\000"
+ 921      722D6D6F 
+ 921      746F7273 
+ 921      706F7274 
+ 921      735C5053 
  922              	.LASF11:
- 923 0125 666C6F61 		.ascii	"float\000"
+ 923 013d 666C6F61 		.ascii	"float\000"
  923      7400
  924              	.LASF1:
- 925 012b 756E7369 		.ascii	"unsigned char\000"
+ 925 0143 756E7369 		.ascii	"unsigned char\000"
  925      676E6564 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 26
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 26
 
 
  925      20636861 
  925      7200
  926              	.LASF5:
- 927 0139 6C6F6E67 		.ascii	"long unsigned int\000"
+ 927 0151 6C6F6E67 		.ascii	"long unsigned int\000"
  927      20756E73 
  927      69676E65 
  927      6420696E 
  927      7400
  928              	.LASF9:
- 929 014b 75696E74 		.ascii	"uint8\000"
+ 929 0163 75696E74 		.ascii	"uint8\000"
  929      3800
  930              	.LASF12:
- 931 0151 646F7562 		.ascii	"double\000"
+ 931 0169 646F7562 		.ascii	"double\000"
  931      6C6500
  932              	.LASF26:
- 933 0158 66756E63 		.ascii	"func\000"
+ 933 0170 66756E63 		.ascii	"func\000"
  933      00
  934              	.LASF30:
- 935 015d 5343425F 		.ascii	"SCB_2_initVar\000"
+ 935 0175 5343425F 		.ascii	"SCB_2_initVar\000"
  935      325F696E 
  935      69745661 
  935      7200
  936              	.LASF21:
- 937 016b 5343425F 		.ascii	"SCB_2_SetTxFifoLevel\000"
+ 937 0183 5343425F 		.ascii	"SCB_2_SetTxFifoLevel\000"
  937      325F5365 
  937      74547846 
  937      69666F4C 
  937      6576656C 
  938              	.LASF10:
- 939 0180 75696E74 		.ascii	"uint32\000"
+ 939 0198 75696E74 		.ascii	"uint32\000"
  939      333200
  940              	.LASF29:
- 941 0187 5343425F 		.ascii	"SCB_2_ScbModeStop\000"
+ 941 019f 5343425F 		.ascii	"SCB_2_ScbModeStop\000"
  941      325F5363 
  941      624D6F64 
  941      6553746F 
  941      7000
  942              	.LASF8:
- 943 0199 756E7369 		.ascii	"unsigned int\000"
+ 943 01b1 756E7369 		.ascii	"unsigned int\000"
  943      676E6564 
  943      20696E74 
  943      00
  944              	.LASF7:
- 945 01a6 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 945 01be 6C6F6E67 		.ascii	"long long unsigned int\000"
  945      206C6F6E 
  945      6720756E 
  945      7369676E 
  945      65642069 
  946              	.LASF28:
- 947 01bd 5343425F 		.ascii	"SCB_2_ScbModePostEnable\000"
+ 947 01d5 5343425F 		.ascii	"SCB_2_ScbModePostEnable\000"
  947      325F5363 
  947      624D6F64 
  947      65506F73 
  947      74456E61 
  948              	.LASF15:
- 949 01d5 73697A65 		.ascii	"sizetype\000"
+ 949 01ed 73697A65 		.ascii	"sizetype\000"
  949      74797065 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 27
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 27
 
 
  949      00
  950              	.LASF6:
- 951 01de 6C6F6E67 		.ascii	"long long int\000"
+ 951 01f6 6C6F6E67 		.ascii	"long long int\000"
  951      206C6F6E 
  951      6720696E 
  951      7400
  952              	.LASF16:
- 953 01ec 5343425F 		.ascii	"SCB_2_Init\000"
+ 953 0204 5343425F 		.ascii	"SCB_2_Init\000"
  953      325F496E 
  953      697400
  954              	.LASF13:
- 955 01f7 63686172 		.ascii	"char\000"
+ 955 020f 63686172 		.ascii	"char\000"
  955      00
  956              	.LASF31:
- 957 01fc 5343425F 		.ascii	"SCB_2_customIntrHandler\000"
+ 957 0214 5343425F 		.ascii	"SCB_2_customIntrHandler\000"
  957      325F6375 
  957      73746F6D 
  957      496E7472 
  957      48616E64 
  958              	.LASF2:
- 959 0214 73686F72 		.ascii	"short int\000"
+ 959 022c 73686F72 		.ascii	"short int\000"
  959      7420696E 
  959      7400
  960              	.LASF33:
- 961 021e 47656E65 		.ascii	"Generated_Source\\PSoC4\\SCB_2.c\000"
+ 961 0236 47656E65 		.ascii	"Generated_Source\\PSoC4\\SCB_2.c\000"
  961      72617465 
  961      645F536F 
  961      75726365 
  961      5C50536F 
  962              	.LASF17:
- 963 023d 5343425F 		.ascii	"SCB_2_Enable\000"
+ 963 0255 5343425F 		.ascii	"SCB_2_Enable\000"
  963      325F456E 
  963      61626C65 
  963      00
  964              	.LASF25:
- 965 024a 5343425F 		.ascii	"SCB_2_SetCustomInterruptHandler\000"
+ 965 0262 5343425F 		.ascii	"SCB_2_SetCustomInterruptHandler\000"
  965      325F5365 
  965      74437573 
  965      746F6D49 
  965      6E746572 
  966              	.LASF23:
- 967 026a 72784669 		.ascii	"rxFifoCtrl\000"
+ 967 0282 72784669 		.ascii	"rxFifoCtrl\000"
  967      666F4374 
  967      726C00
  968              	.LASF4:
- 969 0275 6C6F6E67 		.ascii	"long int\000"
+ 969 028d 6C6F6E67 		.ascii	"long int\000"
  969      20696E74 
  969      00
  970              	.LASF27:
- 971 027e 5343425F 		.ascii	"SCB_2_ScbEnableIntr\000"
+ 971 0296 5343425F 		.ascii	"SCB_2_ScbEnableIntr\000"
  971      325F5363 
  971      62456E61 
  971      626C6549 
  971      6E747200 
  972              	.LASF0:
- 973 0292 7369676E 		.ascii	"signed char\000"
+ 973 02aa 7369676E 		.ascii	"signed char\000"
  973      65642063 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccNBFxOd.s 			page 28
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccUm0oR7.s 			page 28
 
 
  973      68617200 

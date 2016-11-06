@@ -1,22 +1,18 @@
 import serial
-import time
+import sys
 
-def reading_fxn(array):
-    s = ''
-    for c1 in xrange(len(array)):
-        s += array[c1]
-    print s
+for x in xrange(15):
+    try:
+        s = serial.Serial(baudrate=115200,port='COM'+str(x))
+        print "===== USING COM" + str(x) + " ====="
+        while True:
+            character = s.read()
+            if character == '~':
+                break
+            sys.stdout.write(character)
+        break
+    except:
+        pass
 
-s = serial.Serial(baudrate=115200,port='COM4')
 
-while True:
-    array = []
-    c1 = 0
-    while(True):
-        character = s.read()
-        if character == '\n':
-            break;
-        else:
-            array.append(character)
-    reading_fxn(array)
-    time.sleep(2)
+print "===================="

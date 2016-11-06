@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
   21:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** #if(SCB_2_I2C_SLAVE_CONST)
   22:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** 
   23:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** /***************************************
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 2
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 2
 
 
   24:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *      I2C Slave Private Vars
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
   78:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  Returns the I2C slave's communication status.
   79:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *
   80:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** * \return
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 3
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 3
 
 
   81:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  Current status of I2C slave.
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
   49 000c BD46     		mov	sp, r7
   50              		@ sp needed
   51 000e 80BD     		pop	{r7, pc}
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 4
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 4
 
 
   52              	.L4:
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  147:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c ****     /* Mask of transfer complete flag and error status */
  148:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c ****     status = ((uint32) SCB_2_slStatus & SCB_2_I2C_SSTAT_RD_MASK);
   80              		.loc 1 148 0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 5
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 5
 
 
   81 000c 0B4B     		ldr	r3, .L7
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  161:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  Clears the write status flags and returns their values. No other status flags
  162:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  are affected.
  163:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 6
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 6
 
 
  164:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** * \return
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  155 002c FFF7FEFF 		bl	CyIntEnable
  186:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** 
  187:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c ****     return(status);
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 7
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 7
 
 
  156              		.loc 1 187 0
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  208:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c ****     matchReg = SCB_2_RX_MATCH_REG;
  190              		.loc 1 208 0
  191 0008 094B     		ldr	r3, .L14
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 8
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 8
 
 
  192 000a 1B68     		ldr	r3, [r3]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  224:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  - Bit value 0 – excludes bit from address comparison.
  225:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  - Bit value 1 – the bit needs to match with the corresponding bit of the 
  226:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  I2C slave address.
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 9
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 9
 
 
  227:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  268              	.L17:
  269 002c 10032540 		.word	1076167440
  270 0030 FFFF00FF 		.word	-16711681
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 10
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 10
 
 
  271              		.cfi_endproc
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  297 000e 11D0     		beq	.L19
  272:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c ****     {
  273:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c ****         SCB_2_DisableInt();  /* Lock from interruption */
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 11
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 11
 
 
  298              		.loc 1 273 0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  343              	.LFB8:
  283:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** 
  284:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 12
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 12
 
 
  285:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** /*******************************************************************************
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  367              		.loc 1 315 0
  368 001c 064B     		ldr	r3, .L25+4
  369 001e 3A68     		ldr	r2, [r7]
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 13
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 13
 
 
  370 0020 1A60     		str	r2, [r3]
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  339:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *
  340:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** * \globalvars
  341:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  SCB_2_slRdBufIndex - used to store current index within slave
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 14
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 14
 
 
  342:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  read buffer.
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  365:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  captured by the slave.
  366:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *
  367:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** * \globalvars
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 15
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 15
 
 
  368:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** *  SCB_2_slWrBufIndex - used to store current index within slave
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  391:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c **** {
  463              		.loc 1 391 0
  464              		.cfi_startproc
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 16
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 16
 
 
  465 0000 80B5     		push	{r7, lr}
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  501              		.cfi_def_cfa_register 7
  410:Generated_Source\PSoC4/SCB_2_I2C_SLAVE.c ****     SCB_2_slWrBufIndex = 0u;
  502              		.loc 1 410 0
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 17
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 17
 
 
  503 0004 024B     		ldr	r3, .L39
@@ -986,48 +986,48 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  524 0006 00000000 		.4byte	.Ldebug_abbrev0
  525 000a 04       		.byte	0x4
  526 000b 01       		.uleb128 0x1
- 527 000c 47000000 		.4byte	.LASF43
+ 527 000c 06000000 		.4byte	.LASF43
  528 0010 01       		.byte	0x1
- 529 0011 70020000 		.4byte	.LASF44
- 530 0015 00000000 		.4byte	.LASF45
+ 529 0011 88020000 		.4byte	.LASF44
+ 530 0015 2D010000 		.4byte	.LASF45
  531 0019 00000000 		.4byte	.Ldebug_ranges0+0
  532 001d 00000000 		.4byte	0
  533 0021 00000000 		.4byte	.Ldebug_line0
  534 0025 02       		.uleb128 0x2
  535 0026 01       		.byte	0x1
  536 0027 06       		.byte	0x6
- 537 0028 55030000 		.4byte	.LASF0
+ 537 0028 6D030000 		.4byte	.LASF0
  538 002c 02       		.uleb128 0x2
  539 002d 01       		.byte	0x1
  540 002e 08       		.byte	0x8
- 541 002f 8F010000 		.4byte	.LASF1
+ 541 002f A7010000 		.4byte	.LASF1
  542 0033 02       		.uleb128 0x2
  543 0034 02       		.byte	0x2
  544 0035 05       		.byte	0x5
- 545 0036 F3020000 		.4byte	.LASF2
+ 545 0036 0B030000 		.4byte	.LASF2
  546 003a 02       		.uleb128 0x2
  547 003b 02       		.byte	0x2
  548 003c 07       		.byte	0x7
- 549 003d 0D010000 		.4byte	.LASF3
+ 549 003d CC000000 		.4byte	.LASF3
  550 0041 02       		.uleb128 0x2
  551 0042 04       		.byte	0x4
  552 0043 05       		.byte	0x5
- 553 0044 30030000 		.4byte	.LASF4
+ 553 0044 48030000 		.4byte	.LASF4
  554 0048 02       		.uleb128 0x2
  555 0049 04       		.byte	0x4
  556 004a 07       		.byte	0x7
- 557 004b D4010000 		.4byte	.LASF5
+ 557 004b EC010000 		.4byte	.LASF5
  558 004f 02       		.uleb128 0x2
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 18
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 18
 
 
  559 0050 08       		.byte	0x8
  560 0051 05       		.byte	0x5
- 561 0052 E0020000 		.4byte	.LASF6
+ 561 0052 F8020000 		.4byte	.LASF6
  562 0056 02       		.uleb128 0x2
  563 0057 08       		.byte	0x8
  564 0058 07       		.byte	0x7
- 565 0059 A1020000 		.4byte	.LASF7
+ 565 0059 B9020000 		.4byte	.LASF7
  566 005d 03       		.uleb128 0x3
  567 005e 04       		.byte	0x4
  568 005f 05       		.byte	0x5
@@ -1035,33 +1035,33 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  570 0064 02       		.uleb128 0x2
  571 0065 04       		.byte	0x4
  572 0066 07       		.byte	0x7
- 573 0067 20010000 		.4byte	.LASF8
+ 573 0067 DF000000 		.4byte	.LASF8
  574 006b 04       		.uleb128 0x4
- 575 006c E6010000 		.4byte	.LASF9
+ 575 006c FE010000 		.4byte	.LASF9
  576 0070 02       		.byte	0x2
  577 0071 B901     		.2byte	0x1b9
  578 0073 2C000000 		.4byte	0x2c
  579 0077 04       		.uleb128 0x4
- 580 0078 53020000 		.4byte	.LASF10
+ 580 0078 6B020000 		.4byte	.LASF10
  581 007c 02       		.byte	0x2
  582 007d BB01     		.2byte	0x1bb
  583 007f 48000000 		.4byte	0x48
  584 0083 02       		.uleb128 0x2
  585 0084 04       		.byte	0x4
  586 0085 04       		.byte	0x4
- 587 0086 6E010000 		.4byte	.LASF11
+ 587 0086 86010000 		.4byte	.LASF11
  588 008a 02       		.uleb128 0x2
  589 008b 08       		.byte	0x8
  590 008c 04       		.byte	0x4
- 591 008d 17020000 		.4byte	.LASF12
+ 591 008d 2F020000 		.4byte	.LASF12
  592 0091 02       		.uleb128 0x2
  593 0092 01       		.byte	0x1
  594 0093 08       		.byte	0x8
- 595 0094 EE020000 		.4byte	.LASF13
+ 595 0094 06030000 		.4byte	.LASF13
  596 0098 05       		.uleb128 0x5
  597 0099 6B000000 		.4byte	0x6b
  598 009d 04       		.uleb128 0x4
- 599 009e 41000000 		.4byte	.LASF14
+ 599 009e 00000000 		.4byte	.LASF14
  600 00a2 02       		.byte	0x2
  601 00a3 6502     		.2byte	0x265
  602 00a5 A9000000 		.4byte	0xa9
@@ -1070,21 +1070,21 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  605 00ae 02       		.uleb128 0x2
  606 00af 04       		.byte	0x4
  607 00b0 07       		.byte	0x7
- 608 00b1 D7020000 		.4byte	.LASF15
+ 608 00b1 EF020000 		.4byte	.LASF15
  609 00b5 06       		.uleb128 0x6
- 610 00b6 53010000 		.4byte	.LASF29
+ 610 00b6 12010000 		.4byte	.LASF29
  611 00ba 01       		.byte	0x1
  612 00bb 75       		.byte	0x75
  613 00bc 77000000 		.4byte	0x77
  614 00c0 00000000 		.4byte	.LFB2
  615 00c4 14000000 		.4byte	.LFE2-.LFB2
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 19
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 19
 
 
  616 00c8 01       		.uleb128 0x1
  617 00c9 9C       		.byte	0x9c
  618 00ca 07       		.uleb128 0x7
- 619 00cb 7D030000 		.4byte	.LASF16
+ 619 00cb 95030000 		.4byte	.LASF16
  620 00cf 01       		.byte	0x1
  621 00d0 8D       		.byte	0x8d
  622 00d1 77000000 		.4byte	0x77
@@ -1094,7 +1094,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  626 00de 9C       		.byte	0x9c
  627 00df F2000000 		.4byte	0xf2
  628 00e3 08       		.uleb128 0x8
- 629 00e4 4C010000 		.4byte	.LASF18
+ 629 00e4 0B010000 		.4byte	.LASF18
  630 00e8 01       		.byte	0x1
  631 00e9 8F       		.byte	0x8f
  632 00ea 77000000 		.4byte	0x77
@@ -1103,7 +1103,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  635 00f0 74       		.sleb128 -12
  636 00f1 00       		.byte	0
  637 00f2 07       		.uleb128 0x7
- 638 00f3 2D010000 		.4byte	.LASF17
+ 638 00f3 EC000000 		.4byte	.LASF17
  639 00f7 01       		.byte	0x1
  640 00f8 AF       		.byte	0xaf
  641 00f9 77000000 		.4byte	0x77
@@ -1113,7 +1113,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  645 0106 9C       		.byte	0x9c
  646 0107 1A010000 		.4byte	0x11a
  647 010b 08       		.uleb128 0x8
- 648 010c 4C010000 		.4byte	.LASF18
+ 648 010c 0B010000 		.4byte	.LASF18
  649 0110 01       		.byte	0x1
  650 0111 B1       		.byte	0xb1
  651 0112 77000000 		.4byte	0x77
@@ -1122,7 +1122,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  654 0118 74       		.sleb128 -12
  655 0119 00       		.byte	0
  656 011a 09       		.uleb128 0x9
- 657 011b BB010000 		.4byte	.LASF20
+ 657 011b D3010000 		.4byte	.LASF20
  658 011f 01       		.byte	0x1
  659 0120 CC       		.byte	0xcc
  660 0121 00000000 		.4byte	.LFB5
@@ -1131,18 +1131,18 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  663 012a 9C       		.byte	0x9c
  664 012b 4C010000 		.4byte	0x14c
  665 012f 0A       		.uleb128 0xa
- 666 0130 99020000 		.4byte	.LASF22
+ 666 0130 B1020000 		.4byte	.LASF22
  667 0134 01       		.byte	0x1
  668 0135 CC       		.byte	0xcc
  669 0136 77000000 		.4byte	0x77
  670 013a 02       		.uleb128 0x2
  671 013b 91       		.byte	0x91
  672 013c 6C       		.sleb128 -20
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 20
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 20
 
 
  673 013d 08       		.uleb128 0x8
- 674 013e 39030000 		.4byte	.LASF19
+ 674 013e 51030000 		.4byte	.LASF19
  675 0142 01       		.byte	0x1
  676 0143 CE       		.byte	0xce
  677 0144 77000000 		.4byte	0x77
@@ -1151,7 +1151,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  680 014a 74       		.sleb128 -12
  681 014b 00       		.byte	0
  682 014c 09       		.uleb128 0x9
- 683 014d 9B030000 		.4byte	.LASF21
+ 683 014d B3030000 		.4byte	.LASF21
  684 0151 01       		.byte	0x1
  685 0152 E9       		.byte	0xe9
  686 0153 00000000 		.4byte	.LFB6
@@ -1160,7 +1160,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  689 015c 9C       		.byte	0x9c
  690 015d 7E010000 		.4byte	0x17e
  691 0161 0A       		.uleb128 0xa
- 692 0162 B8020000 		.4byte	.LASF23
+ 692 0162 D0020000 		.4byte	.LASF23
  693 0166 01       		.byte	0x1
  694 0167 E9       		.byte	0xe9
  695 0168 77000000 		.4byte	0x77
@@ -1168,7 +1168,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  697 016d 91       		.byte	0x91
  698 016e 6C       		.sleb128 -20
  699 016f 08       		.uleb128 0x8
- 700 0170 39030000 		.4byte	.LASF19
+ 700 0170 51030000 		.4byte	.LASF19
  701 0174 01       		.byte	0x1
  702 0175 EB       		.byte	0xeb
  703 0176 77000000 		.4byte	0x77
@@ -1177,7 +1177,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  706 017c 74       		.sleb128 -12
  707 017d 00       		.byte	0
  708 017e 0B       		.uleb128 0xb
- 709 017f 05030000 		.4byte	.LASF24
+ 709 017f 1D030000 		.4byte	.LASF24
  710 0183 01       		.byte	0x1
  711 0184 0C01     		.2byte	0x10c
  712 0186 00000000 		.4byte	.LFB7
@@ -1186,7 +1186,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  715 018f 9C       		.byte	0x9c
  716 0190 B3010000 		.4byte	0x1b3
  717 0194 0C       		.uleb128 0xc
- 718 0195 68010000 		.4byte	.LASF25
+ 718 0195 27010000 		.4byte	.LASF25
  719 0199 01       		.byte	0x1
  720 019a 0C01     		.2byte	0x10c
  721 019c B3010000 		.4byte	0x1b3
@@ -1194,11 +1194,11 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  723 01a1 91       		.byte	0x91
  724 01a2 74       		.sleb128 -12
  725 01a3 0C       		.uleb128 0xc
- 726 01a4 FD020000 		.4byte	.LASF26
+ 726 01a4 15030000 		.4byte	.LASF26
  727 01a8 01       		.byte	0x1
  728 01a9 0C01     		.2byte	0x10c
  729 01ab 77000000 		.4byte	0x77
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 21
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 21
 
 
  730 01af 02       		.uleb128 0x2
@@ -1209,7 +1209,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  735 01b4 04       		.byte	0x4
  736 01b5 6B000000 		.4byte	0x6b
  737 01b9 0B       		.uleb128 0xb
- 738 01ba D5000000 		.4byte	.LASF27
+ 738 01ba 94000000 		.4byte	.LASF27
  739 01be 01       		.byte	0x1
  740 01bf 3301     		.2byte	0x133
  741 01c1 00000000 		.4byte	.LFB8
@@ -1218,7 +1218,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  744 01ca 9C       		.byte	0x9c
  745 01cb EE010000 		.4byte	0x1ee
  746 01cf 0C       		.uleb128 0xc
- 747 01d0 EC010000 		.4byte	.LASF28
+ 747 01d0 04020000 		.4byte	.LASF28
  748 01d4 01       		.byte	0x1
  749 01d5 3301     		.2byte	0x133
  750 01d7 B3010000 		.4byte	0x1b3
@@ -1226,7 +1226,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  752 01dc 91       		.byte	0x91
  753 01dd 74       		.sleb128 -12
  754 01de 0C       		.uleb128 0xc
- 755 01df FD020000 		.4byte	.LASF26
+ 755 01df 15030000 		.4byte	.LASF26
  756 01e3 01       		.byte	0x1
  757 01e4 3301     		.2byte	0x133
  758 01e6 77000000 		.4byte	0x77
@@ -1235,7 +1235,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  761 01ec 70       		.sleb128 -16
  762 01ed 00       		.byte	0
  763 01ee 0E       		.uleb128 0xe
- 764 01ef F0000000 		.4byte	.LASF30
+ 764 01ef AF000000 		.4byte	.LASF30
  765 01f3 01       		.byte	0x1
  766 01f4 5901     		.2byte	0x159
  767 01f6 77000000 		.4byte	0x77
@@ -1244,7 +1244,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  770 0202 01       		.uleb128 0x1
  771 0203 9C       		.byte	0x9c
  772 0204 0E       		.uleb128 0xe
- 773 0205 9D010000 		.4byte	.LASF31
+ 773 0205 B5010000 		.4byte	.LASF31
  774 0209 01       		.byte	0x1
  775 020a 7401     		.2byte	0x174
  776 020c 77000000 		.4byte	0x77
@@ -1253,18 +1253,18 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  779 0218 01       		.uleb128 0x1
  780 0219 9C       		.byte	0x9c
  781 021a 0F       		.uleb128 0xf
- 782 021b 74010000 		.4byte	.LASF32
+ 782 021b 8C010000 		.4byte	.LASF32
  783 021f 01       		.byte	0x1
  784 0220 8601     		.2byte	0x186
  785 0222 00000000 		.4byte	.LFB11
  786 0226 14000000 		.4byte	.LFE11-.LFB11
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 22
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 22
 
 
  787 022a 01       		.uleb128 0x1
  788 022b 9C       		.byte	0x9c
  789 022c 0F       		.uleb128 0xf
- 790 022d 61030000 		.4byte	.LASF33
+ 790 022d 79030000 		.4byte	.LASF33
  791 0231 01       		.byte	0x1
  792 0232 9801     		.2byte	0x198
  793 0234 00000000 		.4byte	.LFB12
@@ -1272,7 +1272,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  795 023c 01       		.uleb128 0x1
  796 023d 9C       		.byte	0x9c
  797 023e 10       		.uleb128 0x10
- 798 023f 08020000 		.4byte	.LASF34
+ 798 023f 20020000 		.4byte	.LASF34
  799 0243 01       		.byte	0x1
  800 0244 1B       		.byte	0x1b
  801 0245 98000000 		.4byte	0x98
@@ -1280,7 +1280,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  803 024a 03       		.byte	0x3
  804 024b 00000000 		.4byte	SCB_2_slStatus
  805 024f 10       		.uleb128 0x10
- 806 0250 1F030000 		.4byte	.LASF35
+ 806 0250 37030000 		.4byte	.LASF35
  807 0254 01       		.byte	0x1
  808 0255 1E       		.byte	0x1e
  809 0256 60020000 		.4byte	0x260
@@ -1291,7 +1291,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  814 0261 04       		.byte	0x4
  815 0262 98000000 		.4byte	0x98
  816 0266 10       		.uleb128 0x10
- 817 0267 41020000 		.4byte	.LASF36
+ 817 0267 59020000 		.4byte	.LASF36
  818 026b 01       		.byte	0x1
  819 026c 1F       		.byte	0x1f
  820 026d A9000000 		.4byte	0xa9
@@ -1299,7 +1299,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  822 0272 03       		.byte	0x3
  823 0273 00000000 		.4byte	SCB_2_slWrBufSize
  824 0277 10       		.uleb128 0x10
- 825 0278 C4020000 		.4byte	.LASF37
+ 825 0278 DC020000 		.4byte	.LASF37
  826 027c 01       		.byte	0x1
  827 027d 20       		.byte	0x20
  828 027e A9000000 		.4byte	0xa9
@@ -1307,7 +1307,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  830 0283 03       		.byte	0x3
  831 0284 00000000 		.4byte	SCB_2_slWrBufIndex
  832 0288 10       		.uleb128 0x10
- 833 0289 30020000 		.4byte	.LASF38
+ 833 0289 48020000 		.4byte	.LASF38
  834 028d 01       		.byte	0x1
  835 028e 23       		.byte	0x23
  836 028f 60020000 		.4byte	0x260
@@ -1315,10 +1315,10 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  838 0294 03       		.byte	0x3
  839 0295 00000000 		.4byte	SCB_2_slRdBufPtr
  840 0299 10       		.uleb128 0x10
- 841 029a 1E020000 		.4byte	.LASF39
+ 841 029a 36020000 		.4byte	.LASF39
  842 029e 01       		.byte	0x1
  843 029f 24       		.byte	0x24
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 23
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 23
 
 
  844 02a0 A9000000 		.4byte	0xa9
@@ -1326,7 +1326,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  846 02a5 03       		.byte	0x3
  847 02a6 00000000 		.4byte	SCB_2_slRdBufSize
  848 02aa 10       		.uleb128 0x10
- 849 02ab 42030000 		.4byte	.LASF40
+ 849 02ab 5A030000 		.4byte	.LASF40
  850 02af 01       		.byte	0x1
  851 02b0 25       		.byte	0x25
  852 02b1 A9000000 		.4byte	0xa9
@@ -1334,7 +1334,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  854 02b6 03       		.byte	0x3
  855 02b7 00000000 		.4byte	SCB_2_slRdBufIndex
  856 02bb 10       		.uleb128 0x10
- 857 02bc 5A020000 		.4byte	.LASF41
+ 857 02bc 72020000 		.4byte	.LASF41
  858 02c0 01       		.byte	0x1
  859 02c1 26       		.byte	0x26
  860 02c2 A9000000 		.4byte	0xa9
@@ -1342,7 +1342,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  862 02c7 03       		.byte	0x3
  863 02c8 00000000 		.4byte	SCB_2_slRdBufIndexTmp
  864 02cc 10       		.uleb128 0x10
- 865 02cd F2010000 		.4byte	.LASF42
+ 865 02cd 0A020000 		.4byte	.LASF42
  866 02d1 01       		.byte	0x1
  867 02d2 27       		.byte	0x27
  868 02d3 98000000 		.4byte	0x98
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  898 0017 0B       		.uleb128 0xb
  899 0018 3E       		.uleb128 0x3e
  900 0019 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 24
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 24
 
 
  901 001a 03       		.uleb128 0x3
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  955 0050 40       		.uleb128 0x40
  956 0051 18       		.uleb128 0x18
  957 0052 9742     		.uleb128 0x2117
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 25
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 25
 
 
  958 0054 19       		.uleb128 0x19
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  1012 008b 3B       		.uleb128 0x3b
  1013 008c 0B       		.uleb128 0xb
  1014 008d 27       		.uleb128 0x27
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 26
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 26
 
 
  1015 008e 19       		.uleb128 0x19
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  1069 00c6 05       		.uleb128 0x5
  1070 00c7 00       		.byte	0
  1071 00c8 03       		.uleb128 0x3
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 27
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 27
 
 
  1072 00c9 0E       		.uleb128 0xe
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  1126 0100 3B       		.uleb128 0x3b
  1127 0101 05       		.uleb128 0x5
  1128 0102 27       		.uleb128 0x27
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 28
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 28
 
 
  1129 0103 19       		.uleb128 0x19
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  1183 0054 14000000 		.4byte	.LFE10-.LFB10
  1184 0058 00000000 		.4byte	.LFB11
  1185 005c 14000000 		.4byte	.LFE11-.LFB11
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 29
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 29
 
 
  1186 0060 00000000 		.4byte	.LFB12
@@ -1718,256 +1718,256 @@ ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 1
  1218      00000201 
  1218      FB0E0D00 
  1218      01010101 
- 1219              	.LASF45:
- 1220 0000 433A5C55 		.ascii	"C:\\Users\\Jerry\\Documents\\PSoC Creator\\Workspac"
- 1220      73657273 
- 1220      5C4A6572 
- 1220      72795C44 
- 1220      6F63756D 
- 1221 002e 6530315C 		.ascii	"e01\\Design01.cydsn\000"
- 1221      44657369 
- 1221      676E3031 
- 1221      2E637964 
- 1221      736E00
- 1222              	.LASF14:
- 1223 0041 72656733 		.ascii	"reg32\000"
- 1223      3200
- 1224              	.LASF43:
- 1225 0047 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
- 1225      4320342E 
- 1225      392E3320 
- 1225      32303135 
- 1225      30333033 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 30
+ 1219              	.LASF14:
+ 1220 0000 72656733 		.ascii	"reg32\000"
+ 1220      3200
+ 1221              	.LASF43:
+ 1222 0006 474E5520 		.ascii	"GNU C 4.9.3 20150303 (release) [ARM/embedded-4_9-br"
+ 1222      4320342E 
+ 1222      392E3320 
+ 1222      32303135 
+ 1222      30333033 
+ 1223 0039 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
+ 1223      20726576 
+ 1223      6973696F 
+ 1223      6E203232 
+ 1223      31323230 
+ 1224 006c 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
+ 1224      66756E63 
+ 1224      74696F6E 
+ 1224      2D736563 
+ 1224      74696F6E 
+ 1225              	.LASF27:
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 30
 
 
- 1226 007a 616E6368 		.ascii	"anch revision 221220] -mcpu=cortex-m0 -mthumb -g -O"
- 1226      20726576 
- 1226      6973696F 
- 1226      6E203232 
- 1226      31323230 
- 1227 00ad 30202D66 		.ascii	"0 -ffunction-sections -ffat-lto-objects\000"
- 1227      66756E63 
- 1227      74696F6E 
- 1227      2D736563 
- 1227      74696F6E 
- 1228              	.LASF27:
- 1229 00d5 5343425F 		.ascii	"SCB_2_I2CSlaveInitWriteBuf\000"
- 1229      325F4932 
- 1229      43536C61 
- 1229      7665496E 
- 1229      69745772 
- 1230              	.LASF30:
- 1231 00f0 5343425F 		.ascii	"SCB_2_I2CSlaveGetReadBufSize\000"
- 1231      325F4932 
- 1231      43536C61 
- 1231      76654765 
- 1231      74526561 
- 1232              	.LASF3:
- 1233 010d 73686F72 		.ascii	"short unsigned int\000"
- 1233      7420756E 
- 1233      7369676E 
- 1233      65642069 
- 1233      6E7400
- 1234              	.LASF8:
- 1235 0120 756E7369 		.ascii	"unsigned int\000"
- 1235      676E6564 
- 1235      20696E74 
- 1235      00
- 1236              	.LASF17:
- 1237 012d 5343425F 		.ascii	"SCB_2_I2CSlaveClearWriteStatus\000"
- 1237      325F4932 
- 1237      43536C61 
- 1237      7665436C 
- 1237      65617257 
- 1238              	.LASF18:
- 1239 014c 73746174 		.ascii	"status\000"
- 1239      757300
- 1240              	.LASF29:
- 1241 0153 5343425F 		.ascii	"SCB_2_I2CSlaveStatus\000"
- 1241      325F4932 
- 1241      43536C61 
- 1241      76655374 
- 1241      61747573 
- 1242              	.LASF25:
- 1243 0168 72644275 		.ascii	"rdBuf\000"
- 1243      6600
+ 1226 0094 5343425F 		.ascii	"SCB_2_I2CSlaveInitWriteBuf\000"
+ 1226      325F4932 
+ 1226      43536C61 
+ 1226      7665496E 
+ 1226      69745772 
+ 1227              	.LASF30:
+ 1228 00af 5343425F 		.ascii	"SCB_2_I2CSlaveGetReadBufSize\000"
+ 1228      325F4932 
+ 1228      43536C61 
+ 1228      76654765 
+ 1228      74526561 
+ 1229              	.LASF3:
+ 1230 00cc 73686F72 		.ascii	"short unsigned int\000"
+ 1230      7420756E 
+ 1230      7369676E 
+ 1230      65642069 
+ 1230      6E7400
+ 1231              	.LASF8:
+ 1232 00df 756E7369 		.ascii	"unsigned int\000"
+ 1232      676E6564 
+ 1232      20696E74 
+ 1232      00
+ 1233              	.LASF17:
+ 1234 00ec 5343425F 		.ascii	"SCB_2_I2CSlaveClearWriteStatus\000"
+ 1234      325F4932 
+ 1234      43536C61 
+ 1234      7665436C 
+ 1234      65617257 
+ 1235              	.LASF18:
+ 1236 010b 73746174 		.ascii	"status\000"
+ 1236      757300
+ 1237              	.LASF29:
+ 1238 0112 5343425F 		.ascii	"SCB_2_I2CSlaveStatus\000"
+ 1238      325F4932 
+ 1238      43536C61 
+ 1238      76655374 
+ 1238      61747573 
+ 1239              	.LASF25:
+ 1240 0127 72644275 		.ascii	"rdBuf\000"
+ 1240      6600
+ 1241              	.LASF45:
+ 1242 012d 433A5C55 		.ascii	"C:\\Users\\Jerry\\Documents\\GitHub\\sandbox\\renss"
+ 1242      73657273 
+ 1242      5C4A6572 
+ 1242      72795C44 
+ 1242      6F63756D 
+ 1243 015a 656C6165 		.ascii	"elaer-motorsports\\PSoC_timer\\Design01.cydsn\000"
+ 1243      722D6D6F 
+ 1243      746F7273 
+ 1243      706F7274 
+ 1243      735C5053 
  1244              	.LASF11:
- 1245 016e 666C6F61 		.ascii	"float\000"
+ 1245 0186 666C6F61 		.ascii	"float\000"
  1245      7400
  1246              	.LASF32:
- 1247 0174 5343425F 		.ascii	"SCB_2_I2CSlaveClearReadBuf\000"
+ 1247 018c 5343425F 		.ascii	"SCB_2_I2CSlaveClearReadBuf\000"
  1247      325F4932 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 31
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 31
 
 
  1247      43536C61 
  1247      7665436C 
  1247      65617252 
  1248              	.LASF1:
- 1249 018f 756E7369 		.ascii	"unsigned char\000"
+ 1249 01a7 756E7369 		.ascii	"unsigned char\000"
  1249      676E6564 
  1249      20636861 
  1249      7200
  1250              	.LASF31:
- 1251 019d 5343425F 		.ascii	"SCB_2_I2CSlaveGetWriteBufSize\000"
+ 1251 01b5 5343425F 		.ascii	"SCB_2_I2CSlaveGetWriteBufSize\000"
  1251      325F4932 
  1251      43536C61 
  1251      76654765 
  1251      74577269 
  1252              	.LASF20:
- 1253 01bb 5343425F 		.ascii	"SCB_2_I2CSlaveSetAddress\000"
+ 1253 01d3 5343425F 		.ascii	"SCB_2_I2CSlaveSetAddress\000"
  1253      325F4932 
  1253      43536C61 
  1253      76655365 
  1253      74416464 
  1254              	.LASF5:
- 1255 01d4 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1255 01ec 6C6F6E67 		.ascii	"long unsigned int\000"
  1255      20756E73 
  1255      69676E65 
  1255      6420696E 
  1255      7400
  1256              	.LASF9:
- 1257 01e6 75696E74 		.ascii	"uint8\000"
+ 1257 01fe 75696E74 		.ascii	"uint8\000"
  1257      3800
  1258              	.LASF28:
- 1259 01ec 77724275 		.ascii	"wrBuf\000"
+ 1259 0204 77724275 		.ascii	"wrBuf\000"
  1259      6600
  1260              	.LASF42:
- 1261 01f2 5343425F 		.ascii	"SCB_2_slOverFlowCount\000"
+ 1261 020a 5343425F 		.ascii	"SCB_2_slOverFlowCount\000"
  1261      325F736C 
  1261      4F766572 
  1261      466C6F77 
  1261      436F756E 
  1262              	.LASF34:
- 1263 0208 5343425F 		.ascii	"SCB_2_slStatus\000"
+ 1263 0220 5343425F 		.ascii	"SCB_2_slStatus\000"
  1263      325F736C 
  1263      53746174 
  1263      757300
  1264              	.LASF12:
- 1265 0217 646F7562 		.ascii	"double\000"
+ 1265 022f 646F7562 		.ascii	"double\000"
  1265      6C6500
  1266              	.LASF39:
- 1267 021e 5343425F 		.ascii	"SCB_2_slRdBufSize\000"
+ 1267 0236 5343425F 		.ascii	"SCB_2_slRdBufSize\000"
  1267      325F736C 
  1267      52644275 
  1267      6653697A 
  1267      6500
  1268              	.LASF38:
- 1269 0230 5343425F 		.ascii	"SCB_2_slRdBufPtr\000"
+ 1269 0248 5343425F 		.ascii	"SCB_2_slRdBufPtr\000"
  1269      325F736C 
  1269      52644275 
  1269      66507472 
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 32
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 32
 
 
  1269      00
  1270              	.LASF36:
- 1271 0241 5343425F 		.ascii	"SCB_2_slWrBufSize\000"
+ 1271 0259 5343425F 		.ascii	"SCB_2_slWrBufSize\000"
  1271      325F736C 
  1271      57724275 
  1271      6653697A 
  1271      6500
  1272              	.LASF10:
- 1273 0253 75696E74 		.ascii	"uint32\000"
+ 1273 026b 75696E74 		.ascii	"uint32\000"
  1273      333200
  1274              	.LASF41:
- 1275 025a 5343425F 		.ascii	"SCB_2_slRdBufIndexTmp\000"
+ 1275 0272 5343425F 		.ascii	"SCB_2_slRdBufIndexTmp\000"
  1275      325F736C 
  1275      52644275 
  1275      66496E64 
  1275      6578546D 
  1276              	.LASF44:
- 1277 0270 47656E65 		.ascii	"Generated_Source\\PSoC4\\SCB_2_I2C_SLAVE.c\000"
+ 1277 0288 47656E65 		.ascii	"Generated_Source\\PSoC4\\SCB_2_I2C_SLAVE.c\000"
  1277      72617465 
  1277      645F536F 
  1277      75726365 
  1277      5C50536F 
  1278              	.LASF22:
- 1279 0299 61646472 		.ascii	"address\000"
+ 1279 02b1 61646472 		.ascii	"address\000"
  1279      65737300 
  1280              	.LASF7:
- 1281 02a1 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1281 02b9 6C6F6E67 		.ascii	"long long unsigned int\000"
  1281      206C6F6E 
  1281      6720756E 
  1281      7369676E 
  1281      65642069 
  1282              	.LASF23:
- 1283 02b8 61646472 		.ascii	"addressMask\000"
+ 1283 02d0 61646472 		.ascii	"addressMask\000"
  1283      6573734D 
  1283      61736B00 
  1284              	.LASF37:
- 1285 02c4 5343425F 		.ascii	"SCB_2_slWrBufIndex\000"
+ 1285 02dc 5343425F 		.ascii	"SCB_2_slWrBufIndex\000"
  1285      325F736C 
  1285      57724275 
  1285      66496E64 
  1285      657800
  1286              	.LASF15:
- 1287 02d7 73697A65 		.ascii	"sizetype\000"
+ 1287 02ef 73697A65 		.ascii	"sizetype\000"
  1287      74797065 
  1287      00
  1288              	.LASF6:
- 1289 02e0 6C6F6E67 		.ascii	"long long int\000"
+ 1289 02f8 6C6F6E67 		.ascii	"long long int\000"
  1289      206C6F6E 
  1289      6720696E 
  1289      7400
  1290              	.LASF13:
- 1291 02ee 63686172 		.ascii	"char\000"
+ 1291 0306 63686172 		.ascii	"char\000"
  1291      00
  1292              	.LASF2:
- 1293 02f3 73686F72 		.ascii	"short int\000"
+ 1293 030b 73686F72 		.ascii	"short int\000"
  1293      7420696E 
  1293      7400
-ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccqvn2UI.s 			page 33
+ARM GAS  C:\Users\Jerry\AppData\Local\Temp\ccBcf9lE.s 			page 33
 
 
  1294              	.LASF26:
- 1295 02fd 62756653 		.ascii	"bufSize\000"
+ 1295 0315 62756653 		.ascii	"bufSize\000"
  1295      697A6500 
  1296              	.LASF24:
- 1297 0305 5343425F 		.ascii	"SCB_2_I2CSlaveInitReadBuf\000"
+ 1297 031d 5343425F 		.ascii	"SCB_2_I2CSlaveInitReadBuf\000"
  1297      325F4932 
  1297      43536C61 
  1297      7665496E 
  1297      69745265 
  1298              	.LASF35:
- 1299 031f 5343425F 		.ascii	"SCB_2_slWrBufPtr\000"
+ 1299 0337 5343425F 		.ascii	"SCB_2_slWrBufPtr\000"
  1299      325F736C 
  1299      57724275 
  1299      66507472 
  1299      00
  1300              	.LASF4:
- 1301 0330 6C6F6E67 		.ascii	"long int\000"
+ 1301 0348 6C6F6E67 		.ascii	"long int\000"
  1301      20696E74 
  1301      00
  1302              	.LASF19:
- 1303 0339 6D617463 		.ascii	"matchReg\000"
+ 1303 0351 6D617463 		.ascii	"matchReg\000"
  1303      68526567 
  1303      00
  1304              	.LASF40:
- 1305 0342 5343425F 		.ascii	"SCB_2_slRdBufIndex\000"
+ 1305 035a 5343425F 		.ascii	"SCB_2_slRdBufIndex\000"
  1305      325F736C 
  1305      52644275 
  1305      66496E64 
  1305      657800
  1306              	.LASF0:
- 1307 0355 7369676E 		.ascii	"signed char\000"
+ 1307 036d 7369676E 		.ascii	"signed char\000"
  1307      65642063 
  1307      68617200 
  1308              	.LASF33:
- 1309 0361 5343425F 		.ascii	"SCB_2_I2CSlaveClearWriteBuf\000"
+ 1309 0379 5343425F 		.ascii	"SCB_2_I2CSlaveClearWriteBuf\000"
  1309      325F4932 
  1309      43536C61 
  1309      7665436C 
  1309      65617257 
  1310              	.LASF16:
- 1311 037d 5343425F 		.ascii	"SCB_2_I2CSlaveClearReadStatus\000"
+ 1311 0395 5343425F 		.ascii	"SCB_2_I2CSlaveClearReadStatus\000"
  1311      325F4932 
  1311      43536C61 
  1311      7665436C 
  1311      65617252 
  1312              	.LASF21:
- 1313 039b 5343425F 		.ascii	"SCB_2_I2CSlaveSetAddressMask\000"
+ 1313 03b3 5343425F 		.ascii	"SCB_2_I2CSlaveSetAddressMask\000"
  1313      325F4932 
  1313      43536C61 
  1313      76655365 

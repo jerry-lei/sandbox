@@ -175,26 +175,6 @@
 <file name=".\Generated_Source\PSoC4\isr_1.h" />
 <file name=".\Generated_Source\PSoC4\project.h" />
 <file name=".\main.c" />
-<file name=".\CortexM0\ARM_GCC_493\Debug\TCPWM_1.o">
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\TCPWM_1.c" />
-<dep name=".\Generated_Source\PSoC4\TCPWM_1.h" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\TCPWM_1.c" />
-<file name=".\CortexM0\ARM_GCC_493\Debug\TCPWM_1_PM.o">
-<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
-<dep name=".\Generated_Source\PSoC4\CyLib.h" />
-<dep name=".\Generated_Source\PSoC4\TCPWM_1.h" />
-<dep name=".\Generated_Source\PSoC4\TCPWM_1_PM.c" />
-<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
-<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
-<dep name=".\Generated_Source\PSoC4\cytypes.h" />
-</file>
-<file name=".\Generated_Source\PSoC4\TCPWM_1_PM.c" />
 <file name=".\CortexM0\ARM_GCC_493\Debug\ADC_In.o">
 <dep name=".\Generated_Source\PSoC4\ADC_In.c" />
 <dep name=".\Generated_Source\PSoC4\ADC_In.h" />
@@ -1089,6 +1069,26 @@
 <dep name=".\Generated_Source\PSoC4\cytypes.h" />
 </file>
 <file name=".\Generated_Source\PSoC4\SW5_PM.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\TCPWM_1.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\TCPWM_1.c" />
+<dep name=".\Generated_Source\PSoC4\TCPWM_1.h" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\TCPWM_1.c" />
+<file name=".\CortexM0\ARM_GCC_493\Debug\TCPWM_1_PM.o">
+<dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
+<dep name=".\Generated_Source\PSoC4\CyLib.h" />
+<dep name=".\Generated_Source\PSoC4\TCPWM_1.h" />
+<dep name=".\Generated_Source\PSoC4\TCPWM_1_PM.c" />
+<dep name=".\Generated_Source\PSoC4\cydevice_trm.h" />
+<dep name=".\Generated_Source\PSoC4\cyfitter.h" />
+<dep name=".\Generated_Source\PSoC4\cytypes.h" />
+</file>
+<file name=".\Generated_Source\PSoC4\TCPWM_1_PM.c" />
 <file name=".\CortexM0\ARM_GCC_493\Debug\cyPm.o">
 <dep name=".\Generated_Source\PSoC4\CyLFClk.h" />
 <dep name=".\Generated_Source\PSoC4\CyLib.h" />
@@ -1307,9 +1307,10 @@
 <name_val_pair name="Generated_Source\PSoC4\cyutils.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
 <name_val_pair name="Generated_Source\PSoC4\CyLFClk.c" v="-mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=${OutputDir}/${CompileFile}.lst -g -D DEBUG -Wall -ffunction-sections -O0 -ffat-lto-objects" />
 <name_val_pair name="C:\Users\Jerry\Documents\PSoC Creator\Workspace01\Design01.cydsn\CortexM0\ARM_GCC_493\Debug\Design01.hex" v="-mcpu=cortex-m0 -mthumb -g -ffunction-sections -O0 -ffat-lto-objects -L Generated_Source\PSoC4 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T &quot;C:\Users\Jerry\Documents\PSoC Creator\Workspace01\Design01.cydsn\Generated_Source\PSoC4\cm0gcc.ld&quot; -specs=nano.specs -Wl,--gc-sections" />
+<name_val_pair name="C:\Users\Jerry\Documents\GitHub\sandbox\rensselaer-motorsports\PSoC_timer\Design01.cydsn\CortexM0\ARM_GCC_493\Debug\Design01.hex" v="-mcpu=cortex-m0 -mthumb -g -ffunction-sections -O0 -ffat-lto-objects -L Generated_Source\PSoC4 -Wl,-Map,${OutputDir}/${ProjectShortName}.map -T C:\Users\Jerry\Documents\GitHub\sandbox\rensselaer-motorsports\PSoC_timer\Design01.cydsn\Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections" />
 </name>
 </genericCmdLineData>
-<codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\Jerry\AppData\Local\Cypress Semiconductor\PSoC Creator\4.0&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p &quot;C:\Users\Jerry\Documents\PSoC Creator\Workspace01\Design01.cydsn\Design01.cyprj&quot; -d CY8C4247LQI-BL483 -s &quot;C:\Users\Jerry\Documents\PSoC Creator\Workspace01\Design01.cydsn\Generated_Source\PSoC4&quot; -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
+<codeGenCmdLineTag v="-.appdatapath &quot;C:\Users\Jerry\AppData\Local\Cypress Semiconductor\PSoC Creator\4.0&quot; -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p C:\Users\Jerry\Documents\GitHub\sandbox\rensselaer-motorsports\PSoC_timer\Design01.cydsn\Design01.cyprj -d CY8C4247LQI-BL483 -s C:\Users\Jerry\Documents\GitHub\sandbox\rensselaer-motorsports\PSoC_timer\Design01.cydsn\Generated_Source\PSoC4 -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE" />
 </CyGuid_b0374e30-ce3a-47f2-ad85-821643292c68>
 </dataGuid>
 <dataGuid v="597c5b74-0c46-4204-8b7f-96f3570671dc">
@@ -2927,7 +2928,7 @@
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\cy_psoc3_inc.v</v>
 <v>C:\Program Files (x86)\Cypress\PSoC Creator\4.0\PSoC Creator\warp\lib\common\stdlogic\rtlpkg.vif</v>
 </warp_dep>
-<deps_time v="131228773588849520" />
+<deps_time v="131229488355897321" />
 <top_block v="TopDesign" />
 <last_generation v="5" />
 <pdl_path v="C:\Users\Jerry\Documents\Cypress\PDL\2.1.0" />
@@ -2935,7 +2936,7 @@
 </dataGuid>
 <dataGuid v="769d31ea-68b1-4f0c-b90a-7c10a43ee563">
 <CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563 type_name="CyDesigner.Common.ProjMgmt.Model.CyLinkCustomData" version="1">
-<deps_time v="131228821866320334" />
+<deps_time v="131229494373545245" />
 </CyGuid_769d31ea-68b1-4f0c-b90a-7c10a43ee563>
 </dataGuid>
 <dataGuid v="504337dd-7d07-4bc7-9057-90e60cf6c469">
