@@ -11,6 +11,12 @@ for item in ListOfWords:
     fileNumber = math.floor(counter/NUMBEROFWORDS)
     fileDest = "split_words/word_cluster" + str(int(fileNumber)) + '.md'
     writingFile = open(fileDest,"a")
-    writingFile.write("#### " + item + '\n')
+    #reformat text block
+    splitItem = item.split('\n')
+    newString = "#### " + splitItem[0] + '\n'
+    for c1 in xrange(1,len(splitItem)):
+        splitItem[c1].replace('\t','')
+        newString += '`' + splitItem[c1] + '`' + '\n'
+    writingFile.write(newString + '\n')
     writingFile.close()
     counter+=1
