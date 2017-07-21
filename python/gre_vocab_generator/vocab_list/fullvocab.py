@@ -13,7 +13,8 @@ for c1 in range(1,7):
         line = re.sub('\n', '', line)
         line = re.sub('\r', '', line)
         line = re.sub(' +', ' ', line)
-        line = line.encode('ascii', 'ignore')
+        line = re.sub(r'[\x00-\x1F]+', '', line)
+        line = line.encode('utf-8', 'ignore')
         currentLineWords = line.split(' ')
         for wordInLine in currentLineWords:
             if len(wordInLine) > 3:
