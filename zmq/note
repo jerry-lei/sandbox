@@ -1,0 +1,3 @@
+make sure to link zmq:
+
+ex: $ gcc app.cpp -o app -L/usr/local/lib -lzmq
