@@ -1,3 +1,22 @@
 make sure to link zmq:
 
 ex: $ gcc app.cpp -o app -L/usr/local/lib -lzmq
+
+Notes:
+
+-- Strings aren't null-terminated!!
+
+Can set context to a number of IO threads in the backgorund through
+- zmq_ctx_set
+--- Each IO thread equiv to individual socket (dozens -> thousands of connections at once)
+--- if using zmq for internal message passing (through multithreading), IO threads can be set to 0
+
+zmq_socket:
+- context is thread safe
+- multiple contexts may coexist within a single application
+
+--- socket types: http://api.zeromq.org/3-2:zmq-socket
+
+
+zmq_socket:
+- not thread safe, cannot be used across multiple threads
